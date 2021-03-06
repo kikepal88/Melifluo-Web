@@ -1,0 +1,16 @@
+.head__logo {
+  width: 170px;
+}
+.head__link-courses a {
+  font-size: 2rem;
+}
+.header__presentation {
+  text-align: start;
+}
+.presentation__titles h1 {
+  font-size: 3rem;
+}
+.presentation__titles h2 {
+  margin: 0;
+  font-size: 2rem;
+}
