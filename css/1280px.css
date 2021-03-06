@@ -2,13 +2,17 @@ header {
   padding: 40px 40px 150px;
 }
 .header__head {
+  height: 100px;
   margin-block-end: 130px;
+}
+.head__logo {
+  width: 200px;
+}
+.head__link-courses a {
+  font-size: 2.8rem;
 }
 .presentation__titles h1 {
   font-size: 6.5rem;
-}
-.presentation__titles h2 {
-  font-size: 3.5rem;
 }
 .presentation__text p {
   width: 40%;
