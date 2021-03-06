@@ -1,0 +1,23 @@
+header {
+  padding: 40px 40px 120px;
+}
+.header__head {
+  margin-block-end: 90px;
+}
+.presentation__titles h1 {
+  font-size: 5.5rem;
+}
+.presentation__titles h2 {
+  font-size: 3rem;
+}
+.presentation__text p {
+  width: 55%;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.presentation__text {
+  margin-block-end: 40px;
+}
+.presentation__button {
+  font-size: 1.8rem;
+}
