@@ -20,4 +20,5 @@ header {
 }
 .presentation__button {
   font-size: 1.8rem;
+  border-radius: 21px;
 }
