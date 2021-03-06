@@ -82,12 +82,12 @@ header {
 .presentation__button {
   width: 200px;
   margin: 20px auto;
-  padding: 8px 12px;
+  padding: 12px;
   color: var(--color_primario);
   font-size: 1.6rem;
   font-weight: 700;
   background-color: var(--color_secundario);
-  border-radius: 15px;
+  border-radius: 20px;
   text-decoration: none;
 }
 .presentation__button:hover {
