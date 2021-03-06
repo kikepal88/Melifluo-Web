@@ -1,0 +1,12 @@
+.header__head {
+  margin-block-end: 100px;
+}
+.presentation__titles h1 {
+  font-size: 6rem;
+}
+.presentation__titles h2 {
+  font-size: 3.5rem;
+}
+.presentation__text p {
+  width: 50%;
+}
