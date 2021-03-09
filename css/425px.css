@@ -14,3 +14,6 @@
   margin: 0;
   font-size: 2rem;
 }
+.presentation__button-container {
+  transform-origin: left;
+}

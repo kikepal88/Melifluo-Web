@@ -51,8 +51,12 @@ header {
   font-weight: 700;
   text-decoration: none;
 }
+.head__link-courses:hover {
+  transition: 0.7s;
+  transform: scale(1.05);
+}
 .head__link-courses a:hover {
-  color: var(--color_claro);
+  transition: 0.7s;
   text-decoration: underline;
 }
 .header__presentation {
@@ -79,7 +83,15 @@ header {
   font-weight: 500;
   line-height: 2rem;
 }
+.presentation__button-container {
+  transform-origin: center;
+}
+.presentation__button-container:hover {
+  transition: 0.7s;
+  transform: scale(1.05);
+}
 .presentation__button {
+  display: inline;
   width: 200px;
   margin: 20px auto;
   padding: 12px;
@@ -89,7 +101,4 @@ header {
   background-color: var(--color_secundario);
   border-radius: 20px;
   text-decoration: none;
-}
-.presentation__button:hover {
-  color: var(--color_claro);
 }
