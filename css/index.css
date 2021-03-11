@@ -51,13 +51,10 @@ header {
   font-weight: 700;
   text-decoration: none;
 }
-.head__link-courses:hover {
-  transition: 0.7s;
-  transform: scale(1.05);
-}
 .head__link-courses a:hover {
-  transition: 0.7s;
+  transition: 0.3s;
   text-decoration: underline;
+  opacity: 0.7;
 }
 .header__presentation {
   width: 100%;
@@ -87,8 +84,8 @@ header {
   transform-origin: center;
 }
 .presentation__button-container:hover {
-  transition: 0.7s;
-  transform: scale(1.05);
+  transition: 0.3s;
+  opacity: 0.7;
 }
 .presentation__button {
   display: inline;
