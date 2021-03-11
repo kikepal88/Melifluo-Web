@@ -99,3 +99,49 @@ header {
   border-radius: 20px;
   text-decoration: none;
 }
+
+/* ----------MAIN------------- */
+
+main {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.main__ourmethod {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.ourmethod__title {
+  margin-block-end: 20px;
+}
+.ourmethod__descriptions {
+  width: 100%;
+  height: auto;
+}
+.description__cards {
+  width: 100%;
+  height: auto;
+  margin-block-end: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0 var(--color_secundario);
+}
+.cards__img {
+  width: 100%;
+  padding: 20px;
+}
+.cards__img img {
+  width: 50%;
+}
+.cards__texts {
+  width: 100%;
+}
+.cards__texts h3 {
+  font-size: 2rem;
+  margin-block-end: 15px;
+}
+.cards__texts p {
+  font-weight: 500;
+  opacity: 0.7;
+}
