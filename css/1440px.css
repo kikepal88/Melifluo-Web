@@ -4,6 +4,7 @@ header {
 body {
   max-width: 1440px;
   margin: 0 auto;
+  box-shadow: 2px 10px 50px 2px var(--color_secundario);
 }
 header {
   padding: 40px 40px 180px;
@@ -23,4 +24,31 @@ header {
 }
 .presentation__text p {
   width: 35%;
+}
+
+/* ----------MAIN------------- */
+
+main {
+  padding: 50px 40px;
+}
+.ourmethod__title {
+  max-width: 90%;
+}
+.ourmethod__title h2 {
+  font-size: 4rem;
+}
+.description__cards {
+  max-width: 420px;
+  height: 450px;
+  padding: 45px;
+}
+.cards__img {
+  padding: 30px;
+}
+.cards__texts h3 {
+  font-size: 3rem;
+  margin-block-end: 20px;
+}
+.description__cards p {
+  line-height: 2.7rem;
 }

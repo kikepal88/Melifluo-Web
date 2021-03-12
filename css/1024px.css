@@ -13,3 +13,27 @@
 .presentation__button-container {
   margin-inline-start: 7%;
 }
+
+/* ----------MAIN------------- */
+
+main {
+  padding: 50px 40px;
+}
+.ourmethod__title {
+  max-width: 90%;
+}
+.ourmethod__title h2 {
+  font-size: 3.5rem;
+}
+.description__cards {
+  max-width: 300px;
+  height: 340px;
+  padding: 20px;
+}
+.description__cards h3 {
+  font-size: 2.5rem;
+}
+.description__cards p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}

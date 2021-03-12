@@ -26,3 +26,24 @@ header {
   font-size: 1.8rem;
   border-radius: 22px;
 }
+
+/* ----------MAIN------------- */
+
+.ourmethod__title {
+  max-width: 80%;
+}
+.ourmethod__title h2 {
+  font-size: 3rem;
+}
+.ourmethod__title p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.description__cards {
+  max-width: 260px;
+  height: 320px;
+}
+.description__cards p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}

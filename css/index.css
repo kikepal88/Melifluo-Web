@@ -136,7 +136,7 @@ main {
 }
 .cards__img {
   width: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 .cards__img img {
   width: 50%;
@@ -147,7 +147,4 @@ main {
 .cards__texts h3 {
   font-size: 2rem;
   margin-block-end: 15px;
-}
-.cards__texts p {
-  /* font-weight: 500; */
 }
