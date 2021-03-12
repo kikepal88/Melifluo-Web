@@ -17,3 +17,15 @@
 .presentation__button-container {
   transform-origin: left;
 }
+
+/* ----------MAIN------------- */
+
+.ourmethod__title {
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+.description__cards {
+  max-width: 400px;
+  margin: 0 auto 25px;
+  padding: 30px;
+}

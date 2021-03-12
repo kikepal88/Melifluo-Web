@@ -18,3 +18,31 @@ header {
   width: 55%;
   font-weight: 700;
 }
+
+/* ----------MAIN------------- */
+
+main {
+  padding: 30px 40px;
+}
+.ourmethod__title {
+  max-width: 70%;
+}
+.ourmethod__title h2 {
+  font-size: 3rem;
+}
+.ourmethod__title p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.ourmethod__descriptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.description__cards {
+  max-width: 220px;
+  height: 290px;
+  padding: 15px;
+}

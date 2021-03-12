@@ -13,3 +13,19 @@ header {
 .presentation__text {
   margin-block-end: 30px;
 }
+
+/* ----------MAIN------------- */
+
+main {
+  padding: 30px;
+}
+.ourmethod__title {
+  margin: 0 auto 25px;
+}
+.ourmethod__title h2 {
+  font-size: 2.5rem;
+  margin-block-end: 15px;
+}
+.description__cards {
+  margin: 0 auto 30px;
+}
