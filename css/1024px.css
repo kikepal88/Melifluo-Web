@@ -10,3 +10,6 @@
 .presentation__text p {
   width: 50%;
 }
+.presentation__button-container {
+  margin-inline-start: 7%;
+}

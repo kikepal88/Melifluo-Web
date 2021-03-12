@@ -19,7 +19,11 @@ header {
   font-size: 1.8rem;
   line-height: 2.5rem;
 }
+.presentation__button-container {
+  margin-inline-start: 5%;
+}
 .presentation__button {
+  padding: 14px;
   font-size: 2rem;
-  border-radius: 22px;
+  border-radius: 24px;
 }

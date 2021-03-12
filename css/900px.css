@@ -18,7 +18,11 @@ header {
 .presentation__text {
   margin-block-end: 40px;
 }
+.presentation__button-container {
+  margin-inline-start: 10%;
+}
 .presentation__button {
+  padding: 13px;
   font-size: 1.8rem;
-  border-radius: 21px;
+  border-radius: 22px;
 }

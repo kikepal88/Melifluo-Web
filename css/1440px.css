@@ -2,7 +2,7 @@ html {
   background-color: var(--color_primario);
 }
 body {
-  max-width: 1600px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 header {
