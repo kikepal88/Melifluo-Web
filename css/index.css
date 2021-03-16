@@ -13,6 +13,9 @@
   --h3-size-p: 2rem;
   --h3-size-m: 2.3rem;
   --h3-size-g: 2.8rem;
+  --h4-size-p: 1.8rem;
+  --h4-size-m: 2rem;
+  --h4-size-g: 2.5rem;
   --p-size-p: 1.5rem;
   --p-size-m: 1.6rem;
   --p-size-g: 1.8rem;
@@ -38,7 +41,7 @@ body {
 header {
   width: 100%;
   height: auto;
-  padding: 10px 20px 30px;
+  padding: 10px 20px 50px;
   color: var(--color_claro);
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-p-Efecto-180.jpg);
   background-position: center;
@@ -51,10 +54,10 @@ header {
   align-items: center;
   width: 100%;
   height: 80px;
-  margin-block-end: 10px;
+  margin-block-end: 30px;
 }
 .head__logo {
-  width: 150px;
+  width: 120px;
 }
 .head__logo img {
   width: 100%;
@@ -76,10 +79,10 @@ header {
   text-align: center;
 }
 .presentation__titles {
-  margin-block-end: 15px;
+  margin-block-end: 20px;
 }
 .presentation__titles h1 {
-  margin-block-end: 10px;
+  margin-block-end: 15px;
   font-size: var(--h1-size-p);
   line-height: calc(var(--h1-size-p)*1.2);
 }
@@ -90,7 +93,7 @@ header {
   line-height: calc(var(--h2-size-p)*1.2);
 }
 .presentation__text {
-  margin-block-end: 20px;
+  margin-block-end: 30px;
 }
 .presentation__text p {
   font-weight: 500;
@@ -126,16 +129,20 @@ main {
 .main__ourmethod {
   width: 100%;
   height: auto;
-  text-align: center;
+  text-align: start;
   color: var(--color_claro);
 }
 .ourmethod__title {
-  margin-block-end: 20px;
+  margin-block-end: 30px;
 }
 .ourmethod__title h2 {
   margin-block-end: 10px;
   font-size: var(--h2-size-p);
   line-height: calc(var(--h2-size-p)*1.2);
+}
+.ourmethod__title h4 {
+  font-size: var(--h4-size-p);
+  line-height: calc(var(--h4-size-p)*1.4);
 }
 .ourmethod__descriptions {
   width: 100%;
@@ -145,16 +152,16 @@ main {
   width: 100%;
   height: auto;
   margin-block-end: 25px;
-  padding: 20px;
+  text-align: start;
   border-radius: 10px;
-  box-shadow: 2px 2px 5px 0 var(--color_secundario);
 }
 .cards__img {
-  width: 100%;
-  padding: 15px;
+  width: 25%;
+  max-width: 60px;
+  margin-block-end: 15px;
 }
 .cards__img img {
-  width: 50%;
+  width: 100%;
 }
 .cards__texts {
   width: 100%;
