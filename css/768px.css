@@ -10,8 +10,11 @@ header {
 .header__head {
   margin-block-end: 50px;
 }
+.head__logo {
+  width: 150px;
+}
 .head__link-courses a {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 .presentation__titles h1 {
   font-size: var(--h1-size-m);
@@ -29,17 +32,15 @@ header {
 /* ----------MAIN------------- */
 
 main {
-  padding: 30px 40px;
-}
-.ourmethod__title {
-  max-width: 70%;
+  padding: 50px 40px;
 }
 .ourmethod__title h2 {
   font-size: var(--h2-size-m);
   line-height: calc(var(--h2-size-m)*1.2);
 }
-.ourmethod__title p {
-  font-weight: 500;
+.ourmethod__title h4 {
+  font-size: var(--h4-size-m);
+  line-height: calc(var(--h4-size-m)*1.4);
 }
 .ourmethod__descriptions {
   display: flex;
@@ -49,11 +50,10 @@ main {
   height: auto;
 }
 .description__cards {
-  max-width: 220px;
-  width: 33%;
-  height: 310px;
+  max-width: 32%;
+  height: auto;
   margin: 0;
-  padding: 15px;
+  padding: 5px;
 }
 .cards__texts h3 {
   font-size: var(--h3-size-m);

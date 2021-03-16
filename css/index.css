@@ -124,7 +124,7 @@ header {
 main {
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 30px 20px;
 }
 .main__ourmethod {
   width: 100%;
@@ -133,7 +133,7 @@ main {
   color: var(--color_claro);
 }
 .ourmethod__title {
-  margin-block-end: 30px;
+  margin-block-end: 35px;
 }
 .ourmethod__title h2 {
   margin-block-end: 10px;
