@@ -7,12 +7,8 @@
 .header__presentation {
   text-align: start;
 }
-.presentation__titles h1 {
-  font-size: 3rem;
-}
 .presentation__titles h2 {
   margin: 0;
-  font-size: 2rem;
 }
 .presentation__button-container {
   transform-origin: left;
