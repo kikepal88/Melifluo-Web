@@ -1,3 +1,8 @@
+body {
+  font-size: var(--p-size-m);
+  line-height: calc(var(--p-size-m)*1.4);
+}
+
 header {
   padding: 40px 40px 80px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-m-Efecto-180.jpg);
@@ -9,10 +14,12 @@ header {
   font-size: 2.5rem;
 }
 .presentation__titles h1 {
-  font-size: 4.5rem;
+  font-size: var(--h1-size-m);
+  line-height: calc(var(--h1-size-m)*1.2);
 }
 .presentation__titles h2 {
-  font-size: 2.3rem;
+  font-size: var(--h2-size-m);
+  line-height: calc(var(--h2-size-m)*1.2);
 }
 .presentation__text p {
   width: 55%;
@@ -28,10 +35,10 @@ main {
   max-width: 70%;
 }
 .ourmethod__title h2 {
-  font-size: 3rem;
+  font-size: var(--h2-size-m);
+  line-height: calc(var(--h2-size-m)*1.2);
 }
 .ourmethod__title p {
-  font-size: 1.5rem;
   font-weight: 500;
 }
 .ourmethod__descriptions {
@@ -48,7 +55,7 @@ main {
   margin: 0;
   padding: 15px;
 }
-.description__cards p {
-  font-size: 1.5rem;
-  line-height: 2.1rem;
+.cards__texts h3 {
+  font-size: var(--h3-size-m);
+  line-height: calc(var(--h3-size-m)*1.2);
 }

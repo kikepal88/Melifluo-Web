@@ -1,3 +1,8 @@
+body {
+  font-size: var(--p-size-g);
+  line-height: calc(var(--p-size-g)*1.4);
+}
+
 header {
   padding: 40px 40px 150px;
 }
@@ -12,12 +17,15 @@ header {
   font-size: 2.8rem;
 }
 .presentation__titles h1 {
-  font-size: 6.5rem;
+  font-size: var(--h1-size-g);
+  line-height: calc(var(--h1-size-g)*1.2);
+}
+.presentation__titles h2 {
+  font-size: var(--h2-size-g);
+  line-height: calc(var(--h2-size-g)*1.2);
 }
 .presentation__text p {
   width: 40%;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
 }
 .presentation__button-container {
   margin-inline-start: 5%;
@@ -33,16 +41,16 @@ header {
 .ourmethod__title {
   max-width: 90%;
 }
-.ourmethod__title p {
-  font-size: 1.8rem;
-  line-height: 2.5rem;
+.ourmethod__title h2 {
+  font-size: var(--h2-size-g);
+  line-height: calc(var(--h2-size-g)*1.2);
 }
 .description__cards {
   max-width: 360px;
   height: 380px;
   padding: 30px;
 }
-.description__cards p {
-  font-size: 1.8rem;
-  line-height: 2.5rem;
+.cards__texts h3 {
+  font-size: var(--h3-size-g);
+  line-height: calc(var(--h3-size-g)*1.2);
 }

@@ -19,9 +19,6 @@ header {
 .head__link-courses a {
   font-size: 3rem;
 }
-.presentation__titles h1 {
-  font-size: 7rem;
-}
 .presentation__text p {
   width: 35%;
 }
@@ -34,9 +31,6 @@ main {
 .ourmethod__title {
   max-width: 90%;
 }
-.ourmethod__title h2 {
-  font-size: 4rem;
-}
 .description__cards {
   max-width: 420px;
   height: 450px;
@@ -46,9 +40,5 @@ main {
   padding: 30px;
 }
 .cards__texts h3 {
-  font-size: 3rem;
   margin-block-end: 20px;
-}
-.description__cards p {
-  line-height: 2.7rem;
 }
