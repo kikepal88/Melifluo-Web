@@ -34,6 +34,9 @@ header {
 main {
   padding: 50px 40px;
 }
+.main__ourmethod {
+  margin-block-end: 30px;
+}
 .ourmethod__title h2 {
   font-size: var(--h2-size-m);
   line-height: calc(var(--h2-size-m)*1.2);

@@ -1,44 +1,25 @@
-header {
-  background-image: url(../assets/images/Guitarra_Elec/GitEle1-g-Efecto-180.jpg);
-}
 body {
   max-width: 1440px;
   margin: 0 auto;
   box-shadow: 2px 10px 50px 2px var(--color_secundario);
 }
+
 header {
-  padding: 40px 40px 180px;
+  background-image: url(../assets/images/Guitarra_Elec/GitEle1-g-Efecto-180.jpg);
+}
+header {
+  padding: 50px 50px 180px;
 }
 .header__head {
   height: 120px;
   margin-block-end: 150px;
 }
-.head__logo {
-  width: 220px;
-}
-.head__link-courses a {
-  font-size: 3rem;
-}
 .presentation__text p {
-  width: 35%;
+  width: 40%;
 }
 
 /* ----------MAIN------------- */
 
-main {
-  padding: 50px 40px;
-}
-.ourmethod__title {
-  max-width: 90%;
-}
-.description__cards {
-  max-width: 420px;
-  height: 450px;
-  padding: 45px;
-}
-.cards__img {
-  padding: 30px;
-}
 .cards__texts h3 {
   margin-block-end: 20px;
 }

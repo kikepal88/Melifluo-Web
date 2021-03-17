@@ -11,9 +11,6 @@ header {
 .presentation__text {
   margin-block-end: 40px;
 }
-.presentation__button-container {
-  margin-inline-start: 10%;
-}
 .presentation__button {
   padding: 13px;
   font-size: 1.8rem;
@@ -21,11 +18,3 @@ header {
 }
 
 /* ----------MAIN------------- */
-
-.ourmethod__title {
-  max-width: 80%;
-}
-.description__cards {
-  max-width: 260px;
-  height: 320px;
-}

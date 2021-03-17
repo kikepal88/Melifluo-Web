@@ -6,10 +6,10 @@
   --Fuente2: "Lato", sans-serif;
   --h1-size-p: 3.5rem;
   --h1-size-m: 4.2rem;
-  --h1-size-g: 5.5rem;
+  --h1-size-g: 5.8rem;
   --h2-size-p: 2.6rem;
   --h2-size-m: 3.1rem;
-  --h2-size-g: 4rem;
+  --h2-size-g: 3.8rem;
   --h3-size-p: 2rem;
   --h3-size-m: 2.3rem;
   --h3-size-g: 2.8rem;
@@ -129,6 +129,7 @@ main {
 .main__ourmethod {
   width: 100%;
   height: auto;
+  margin-block-end: 20px;
   text-align: start;
   color: var(--color_claro);
 }

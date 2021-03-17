@@ -4,20 +4,14 @@
 .presentation__text p {
   width: 50%;
 }
-.presentation__button-container {
-  margin-inline-start: 7%;
-}
 
 /* ----------MAIN------------- */
 
 main {
-  padding: 50px 40px;
+  padding: 70px 40px;
 }
-.ourmethod__title {
-  max-width: 90%;
-}
+
 .description__cards {
-  max-width: 300px;
-  height: 340px;
-  padding: 20px;
+  max-width: 31%;
+  padding: 10px;
 }
