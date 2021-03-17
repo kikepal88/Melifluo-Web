@@ -129,7 +129,7 @@ main {
 .main__ourmethod {
   width: 100%;
   height: auto;
-  margin-block-end: 20px;
+  margin-block-end: 50px;
   text-align: start;
   color: var(--color_claro);
 }
@@ -137,7 +137,8 @@ main {
   margin-block-end: 35px;
 }
 .ourmethod__title h2 {
-  margin-block-end: 10px;
+  margin-block-end: 20px;
+  color: var(--color_secundario);
   font-size: var(--h2-size-p);
   line-height: calc(var(--h2-size-p)*1.2);
 }
@@ -171,4 +172,96 @@ main {
   margin-block-end: 15px;
   font-size: var(--h3-size-p);
   line-height: calc(var(--h3-size-p)*1.2);
+}
+
+.main__courses {
+  width: 100%;
+  height: auto;
+  margin-block-end: 50px;
+  color: var(--color_claro);
+}
+.courses__presentation {
+  width: 100%;
+  height: auto;
+  margin-block-end: 20px;
+}
+.courses__presentation h2 {
+  margin-block-end: 20px;
+  color: var(--color_secundario);
+}
+.courses__presentation h3 {
+  margin-block-end: 20px;
+}
+.courses__presentation strong {
+  color: var(--color_secundario);
+}
+.courses__container {
+  width: 100%;
+  height: auto;
+}
+.course__article {
+  position: relative;
+  color: var(--color_claro);
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 10px;
+}
+.course__article:hover img {
+  opacity: 50%;
+  transition: 0.7s;
+}
+.course__article:hover p {
+  opacity: 100%;
+  transition: 0.7s;
+}
+.article__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  filter: grayscale(100%) sepia(100%) brightness(60%) hue-rotate(350deg) saturate(400%);
+}
+.article__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article__title {
+  position: absolute;
+  top: 10%;
+  right: 15px;
+  left: 15px;
+}
+.article__description {
+  position: absolute;
+  top: 55%;
+  right: 15px;
+  left: 15px;
+}
+.article__description p {
+  margin-block-end: 20px;
+  font-weight: 700;
+  opacity: 0%;
+}
+.article__description a {
+  width: 150px;
+  padding: 12px;
+  color: var(--color_claro);
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: var(--color_primario);
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: 90%;
+}
+.article__description a:hover {
+  color: var(--color_primario);
+  background-color: var(--color_secundario);
+  opacity: 100%;
+  transition: 0.5s;
 }
