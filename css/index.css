@@ -203,12 +203,13 @@ main {
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
+  cursor: pointer;
 }
-.course__article:hover img {
+.course__article:active img {
   opacity: 50%;
   transition: 0.7s;
 }
-.course__article:hover p {
+.course__article:active p {
   opacity: 100%;
   transition: 0.7s;
 }
