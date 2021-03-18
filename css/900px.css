@@ -18,3 +18,19 @@ header {
 }
 
 /* ----------MAIN------------- */
+
+.main__ourmethod {
+  margin-block-end: 50px;
+}
+
+.course__article {
+  width: 32%;
+  height: 370px;
+}
+.main__courses {
+  margin-block-start: 60px;
+  margin-block-end: 60px;
+}
+.courses__presentation {
+  margin-block-end: 35px;
+}

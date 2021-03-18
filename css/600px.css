@@ -19,3 +19,14 @@ main {
 .description__cards {
   margin-block-end: 30px;
 }
+
+.courses__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.course__article {
+  width: 48%;
+  height: 320px;
+}

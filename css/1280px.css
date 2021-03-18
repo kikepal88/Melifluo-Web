@@ -49,3 +49,29 @@ main {
   font-size: var(--h3-size-g);
   line-height: calc(var(--h3-size-g) * 1.2);
 }
+
+.courses__presentation h3 {
+  font-size: var(--h3-size-g);
+  line-height: calc(var(--h3-size-g) * 1.2);
+}
+.course__article {
+  width: 32%;
+  height: 400px;
+  margin-block-end: 25px;
+}
+.article__title {
+  right: 25px;
+  left: 25px;
+}
+.article__title h3 {
+  font-size: var(--h3-size-g);
+  line-height: calc(var(--h3-size-g) * 1.2);
+}
+.article__description {
+  right: 25px;
+  left: 25px;
+}
+.article__description a {
+  padding: 13px;
+  font-size: 1.8rem;
+}
