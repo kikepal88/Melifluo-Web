@@ -35,7 +35,7 @@ html {
 body {
   font-size: var(--p-size-p);
   font-family: var(--Fuente1);
-  line-height: calc(var(--p-size-p)*1.4);
+  line-height: calc(var(--p-size-p) * 1.4);
 }
 
 header {
@@ -67,11 +67,11 @@ header {
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
-  opacity: 0.7;
+  opacity: 1;
 }
 .head__link-courses a:hover {
   transition: 0.7s;
-  opacity: 1;
+  opacity: 0.7;
 }
 .header__presentation {
   width: 100%;
@@ -84,13 +84,13 @@ header {
 .presentation__titles h1 {
   margin-block-end: 15px;
   font-size: var(--h1-size-p);
-  line-height: calc(var(--h1-size-p)*1.2);
+  line-height: calc(var(--h1-size-p) * 1.2);
 }
 .presentation__titles h2 {
   width: 85%;
   margin: 0 auto;
   font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p)*1.2);
+  line-height: calc(var(--h2-size-p) * 1.2);
 }
 .presentation__text {
   margin-block-end: 30px;
@@ -100,11 +100,11 @@ header {
 }
 .presentation__button-container {
   transform-origin: center;
-  opacity: 0.7;
+  opacity: 1;
 }
 .presentation__button-container:hover {
   transition: 0.7s;
-  opacity: 1;
+  opacity: 0.7;
 }
 .presentation__button {
   display: inline;
@@ -140,11 +140,11 @@ main {
   margin-block-end: 20px;
   color: var(--color_secundario);
   font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p)*1.2);
+  line-height: calc(var(--h2-size-p) * 1.2);
 }
 .ourmethod__title h4 {
   font-size: var(--h4-size-p);
-  line-height: calc(var(--h4-size-p)*1.4);
+  line-height: calc(var(--h4-size-p) * 1.4);
 }
 .ourmethod__descriptions {
   width: 100%;
@@ -171,7 +171,7 @@ main {
 .cards__texts h3 {
   margin-block-end: 15px;
   font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p)*1.2);
+  line-height: calc(var(--h3-size-p) * 1.2);
 }
 
 .main__courses {
@@ -189,12 +189,12 @@ main {
   margin-block-end: 20px;
   color: var(--color_secundario);
   font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p)*1.2);
+  line-height: calc(var(--h2-size-p) * 1.2);
 }
 .courses__presentation h3 {
   margin-block-end: 20px;
   font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p)*1.2);
+  line-height: calc(var(--h3-size-p) * 1.2);
 }
 .courses__presentation strong {
   color: var(--color_secundario);
@@ -229,7 +229,8 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  filter: grayscale(100%) sepia(100%) brightness(60%) hue-rotate(350deg) saturate(400%);
+  filter: grayscale(100%) sepia(100%) brightness(60%) hue-rotate(350deg)
+    saturate(400%);
 }
 .article__img img {
   width: 100%;
@@ -244,7 +245,7 @@ main {
 }
 .article__title h2 {
   font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p)*1.2);
+  line-height: calc(var(--h2-size-p) * 1.2);
 }
 .article__description {
   position: absolute;
