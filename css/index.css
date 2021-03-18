@@ -136,15 +136,10 @@ main {
 .ourmethod__title {
   margin-block-end: 35px;
 }
-.ourmethod__title h2 {
-  margin-block-end: 20px;
+.ourmethod__title h3 {
   color: var(--color_secundario);
-  font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p) * 1.2);
-}
-.ourmethod__title h4 {
-  font-size: var(--h4-size-p);
-  line-height: calc(var(--h4-size-p) * 1.4);
+  font-size: var(--h3-size-p);
+  line-height: calc(var(--h3-size-p) * 1.4);
 }
 .ourmethod__descriptions {
   width: 100%;
@@ -185,14 +180,9 @@ main {
   height: auto;
   margin-block-end: 20px;
 }
-.courses__presentation h2 {
-  margin-block-end: 20px;
-  color: var(--color_secundario);
-  font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p) * 1.2);
-}
 .courses__presentation h3 {
   margin-block-end: 20px;
+  color: var(--color_secundario);
   font-size: var(--h3-size-p);
   line-height: calc(var(--h3-size-p) * 1.2);
 }
