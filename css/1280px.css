@@ -59,6 +59,14 @@ main {
   height: 400px;
   margin-block-end: 25px;
 }
+.course__article:hover img {
+  opacity: 50%;
+  transition: 0.7s;
+}
+.course__article:hover p {
+  opacity: 100%;
+  transition: 0.7s;
+}
 .article__title {
   right: 25px;
   left: 25px;
@@ -70,6 +78,9 @@ main {
 .article__description {
   right: 25px;
   left: 25px;
+}
+.article__description p {
+  opacity: 0%;
 }
 .article__description a {
   padding: 13px;

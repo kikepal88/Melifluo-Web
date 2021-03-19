@@ -38,6 +38,14 @@ body {
   line-height: calc(var(--p-size-p) * 1.4);
 }
 
+hr {
+  border: 1px solid var(--color_secundario);
+}
+.division-intermediate {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 header {
   width: 100%;
   height: auto;
@@ -130,11 +138,11 @@ main {
   width: 100%;
   height: auto;
   margin-block-end: 50px;
-  text-align: start;
+  text-align: center;
   color: var(--color_claro);
 }
 .ourmethod__title {
-  margin-block-end: 35px;
+  margin: 0 auto 35px;
 }
 .ourmethod__title h3 {
   color: var(--color_secundario);
@@ -149,13 +157,13 @@ main {
   width: 100%;
   height: auto;
   margin-block-end: 25px;
-  text-align: start;
+  text-align: center;
   border-radius: 10px;
 }
 .cards__img {
   width: 25%;
   max-width: 60px;
-  margin-block-end: 15px;
+  margin: 15px auto;
 }
 .cards__img img {
   width: 100%;
@@ -165,12 +173,9 @@ main {
 }
 .cards__texts h3 {
   margin-block-end: 15px;
+  color: var(--color_secundario);
   font-size: var(--h3-size-p);
   line-height: calc(var(--h3-size-p) * 1.2);
-}
-
-hr {
-  border: 1px solid var(--color_secundario);
 }
 
 .main__courses {
@@ -179,6 +184,7 @@ hr {
   margin-block-start: 50px;
   margin-block-end: 50px;
   color: var(--color_claro);
+  text-align: center;
 }
 .courses__presentation {
   width: 100%;
@@ -208,16 +214,8 @@ hr {
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px 0 var(--color_claro);
+  box-shadow: 1px 1px 5px 0 var(--color_secundario);
   cursor: pointer;
-}
-.course__article:active img {
-  opacity: 50%;
-  transition: 0.7s;
-}
-.course__article:active p {
-  opacity: 100%;
-  transition: 0.7s;
 }
 .article__img {
   position: absolute;
@@ -226,8 +224,6 @@ hr {
   bottom: 0;
   left: 0;
   width: 100%;
-  filter: grayscale(100%) sepia(100%) brightness(60%) hue-rotate(350deg)
-    saturate(400%);
 }
 .article__img img {
   width: 100%;
@@ -253,22 +249,22 @@ hr {
 .article__description p {
   margin-block-end: 20px;
   font-weight: 700;
-  opacity: 0%;
+  opacity: 100%;
 }
 .article__description a {
   width: 150px;
   padding: 12px;
-  color: var(--color_claro);
+  color: var(--color_primario);
   font-size: 1.6rem;
   font-weight: 700;
-  background-color: var(--color_primario);
+  background-color: var(--color_secundario);
   border-radius: 20px;
   text-decoration: none;
   opacity: 90%;
 }
 .article__description a:hover {
-  color: var(--color_primario);
-  background-color: var(--color_secundario);
+  color: var(--color_secundario);
+  background-color: var(--color_primario);
   opacity: 100%;
   transition: 0.3s;
 }
