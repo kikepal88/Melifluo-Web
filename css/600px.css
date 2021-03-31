@@ -30,3 +30,17 @@ main {
   width: 48%;
   height: 320px;
 }
+
+.steps__individual-step {
+  margin-block-end: 30px;
+}
+.step__img {
+  width: 55px;
+  height: 55px;
+}
+.steps__union {
+  height: 260%;
+}
+.steps__individual-step p {
+  max-width: 78%;
+}

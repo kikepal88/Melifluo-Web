@@ -13,3 +13,10 @@
 .description__cards {
   max-width: 95%;
 }
+
+.steps__union {
+  height: 250%;
+}
+.steps__individual-step p {
+  max-width: 75%;
+}
