@@ -83,3 +83,10 @@ main {
   right: 20px;
   left: 20px;
 }
+
+.steps__union {
+  height: 260%;
+}
+.steps__individual-step p {
+  max-width: 80%;
+}

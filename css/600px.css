@@ -31,8 +31,12 @@ main {
   height: 320px;
 }
 
+.main__steps h3 {
+  margin-block-end: 30px;
+}
 .steps__individual-step {
   margin-block-end: 30px;
+  padding: 0 15px;
 }
 .step__img {
   width: 55px;
@@ -42,5 +46,5 @@ main {
   height: 260%;
 }
 .steps__individual-step p {
-  max-width: 78%;
+  max-width: 70%;
 }
