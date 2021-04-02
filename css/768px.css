@@ -84,9 +84,43 @@ main {
   left: 20px;
 }
 
+.main__steps h3 {
+  font-size: var(--h3-size-m);
+  line-height: calc(var(--h3-size-m) * 1.2);
+}
+.steps__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.steps__individual-step {
+  display: block;
+  width: 24%;
+  margin: 0;
+  padding: 0;
+}
+.step__img {
+  width: 100%;
+}
+.step__img img {
+  width: 55px;
+}
+.step__number {
+  width: 30px;
+  height: 30px;
+  margin: 15px auto;
+  background-color: var(--color_secundario);
+  border-radius: 50%;
+}
 .steps__union {
-  height: 260%;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  z-index: 0;
+  width: 585%;
+  height: 1px;
 }
 .steps__individual-step p {
-  max-width: 80%;
+  max-width: 100%;
+  text-align: center;
 }
