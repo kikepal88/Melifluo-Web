@@ -15,3 +15,10 @@ main {
   max-width: 31%;
   padding: 10px;
 }
+
+.main__steps h3 {
+  margin-block-end: 50px;
+}
+.steps__union {
+  width: 800%;
+}

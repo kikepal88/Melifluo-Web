@@ -113,10 +113,8 @@ main {
   border-radius: 50%;
 }
 .steps__union {
-  position: absolute;
   top: 15px;
   left: 30px;
-  z-index: 0;
   width: 585%;
   height: 1px;
 }

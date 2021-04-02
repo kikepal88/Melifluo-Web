@@ -86,3 +86,22 @@ main {
   padding: 13px;
   font-size: 1.8rem;
 }
+
+.main__steps h3 {
+  font-size: var(--h3-size-g);
+  line-height: calc(var(--h3-size-g) * 1.2);
+  margin-block-end: 60px;
+}
+.step__img img {
+  width: 60px;
+}
+.step__number {
+  width: 36px;
+  height: 36px;
+  margin: 30px auto;
+}
+.steps__union {
+  top: 18px;
+  left: 36px;
+  width: 840%;
+}

@@ -34,3 +34,10 @@ header {
 .courses__presentation {
   margin-block-end: 35px;
 }
+
+.steps__individual-step {
+  width: 23%;
+}
+.steps__union {
+  width: 700%;
+}

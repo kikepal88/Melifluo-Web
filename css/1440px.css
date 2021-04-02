@@ -40,3 +40,13 @@ header {
   right: 15px;
   left: 15px;
 }
+
+.main__steps h3 {
+  margin-block-end: 70px;
+}
+.step__number {
+  margin: 40px auto;
+}
+.steps__union {
+  width: 950%;
+}
