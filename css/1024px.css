@@ -22,3 +22,13 @@ main {
 .steps__union {
   width: 800%;
 }
+
+.main__benefits h3 {
+  margin-block-end: 50px;
+}
+.individual__benefits {
+  margin-block-end: 30px;
+}
+.benefits__img {
+  margin-inline-end: 25px;
+}

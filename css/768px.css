@@ -122,3 +122,18 @@ main {
   max-width: 100%;
   text-align: center;
 }
+
+.main__benefits h3 {
+  margin-block-end: 30px;
+  font-size: var(--h3-size-m);
+  line-height: calc(var(--h3-size-m) * 1.2);
+}
+.benefits__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.individual__benefits {
+  width: 48%;
+}

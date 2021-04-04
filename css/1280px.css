@@ -105,3 +105,9 @@ main {
   left: 36px;
   width: 840%;
 }
+
+.main__benefits h3 {
+  margin-block-end: 50px;
+  font-size: var(--h3-size-g);
+  line-height: calc(var(--h3-size-g) * 1.2);
+}
