@@ -331,3 +331,42 @@ main {
   max-width: 70%;
   text-align: start;
 }
+
+.main__benefits {
+  width: 100%;
+  height: auto;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  color: var(--color_claro);
+  text-align: center;
+}
+.main__benefits h3 {
+  margin-block-end: 20px;
+  color: var(--color_secundario);
+  font-size: var(--h3-size-p);
+  line-height: calc(var(--h3-size-p) * 1.2);
+}
+.benefits__container {
+  width: 100%;
+  height: auto;
+}
+.individual__benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 20px;
+}
+.benefits__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.benefits__img img {
+  width: 50px;
+}
+.individual__benefits p {
+  max-width: 80%;
+  text-align: start;
+}
