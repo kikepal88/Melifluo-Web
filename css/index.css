@@ -370,3 +370,18 @@ main {
   max-width: 80%;
   text-align: start;
 }
+
+/* ----------FOOTER------------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+.footer__contact a {
+  color: var(--color_secundario);
+  text-decoration: none;
+}
