@@ -44,29 +44,37 @@
       </div>
     </section>
   </header>
-  <main>
-    <section>
-      <div>
+  <main class="contact__main">
+    <section class="main__contact-section">
+      <div class="contact-title">
         <h2>¿Quieres información? Dejanos tus datos y pronto te responderemos</h2>
       </div>
-      <div>
+      <div class="contact__form">
         <form action="">
-          <label for="name">
-            <span>Nombre:</span>
-            <input type="text" name="name" id="name" autocomplete="name" required>
-          </label>
-          <label for="lastname">
-            <span>Apellido:</span>
-            <input type="text" name="lastname" id="lastname" required>
-          </label>
-          <label for="email">
-            <span>Email:</span>
-            <input type="email" name="email" id="email" autocomplete="email" required>
-          </label>
-          <label for="phonenumber">
-            <span>Telefono:</span>
-            <input type="number" name="phonenumber" id="phonenumber" autocomplete="name">
-          </label>
+          <div class="form__label">
+            <label for="name">
+              <span>Nombre:</span>
+              <input type="text" name="name" id="name" autocomplete="name" placeholder="Nombre" required>
+            </label>
+          </div>
+          <div class="form__label">
+            <label for="lastname">
+              <span>Apellido:</span>
+              <input type="text" name="lastname" id="lastname" placeholder="Apellido" required>
+            </label>
+          </div>
+          <div class="form__label">
+            <label for="email">
+              <span>Email:</span>
+              <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" required>
+            </label>
+          </div>
+          <div class="form__label">
+            <label for="phone">
+              <span>Teléfono:</span>
+              <input type="number" name="phone" id="phone" autocomplete="phone" placeholder="Teléfono">
+            </label>
+          </div>
           <input type="submit">
         </form>
       </div>
