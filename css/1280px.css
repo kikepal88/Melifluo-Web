@@ -3,6 +3,25 @@ body {
   line-height: calc(var(--p-size-g) * 1.4);
 }
 
+h1 {
+  font-size: var(--h1-size-g);
+  line-height: calc(var(--h1-size-g) * 1.2);
+}
+h2 {
+  font-size: var(--h2-size-g);
+  line-height: calc(var(--h2-size-g) * 1.2);
+}
+h3 {
+  font-size: var(--h3-size-g);
+  line-height: calc(var(--h3-size-g) * 1.2);
+}
+
+.button {
+  padding: 14px;
+  font-size: 2rem;
+  border-radius: 24px;
+}
+
 header {
   padding: 50px 50px 150px;
 }
@@ -16,21 +35,8 @@ header {
 .head__link-courses a {
   font-size: 2.5rem;
 }
-.presentation__titles h1 {
-  font-size: var(--h1-size-g);
-  line-height: calc(var(--h1-size-g) * 1.2);
-}
-.presentation__titles h2 {
-  font-size: var(--h2-size-g);
-  line-height: calc(var(--h2-size-g) * 1.2);
-}
 .presentation__text p {
   width: 45%;
-}
-.presentation__button {
-  padding: 14px;
-  font-size: 2rem;
-  border-radius: 24px;
 }
 
 /* ----------MAIN------------- */
@@ -41,19 +47,7 @@ main {
 .main__ourmethod {
   margin-block-end: 40px;
 }
-.ourmethod__title h3 {
-  font-size: var(--h3-size-g);
-  line-height: calc(var(--h3-size-g) * 1.4);
-}
-.cards__texts h3 {
-  font-size: var(--h3-size-g);
-  line-height: calc(var(--h3-size-g) * 1.2);
-}
 
-.courses__presentation h3 {
-  font-size: var(--h3-size-g);
-  line-height: calc(var(--h3-size-g) * 1.2);
-}
 .course__article {
   width: 32%;
   height: 400px;
@@ -71,10 +65,6 @@ main {
   right: 25px;
   left: 25px;
 }
-.article__title h3 {
-  font-size: var(--h3-size-g);
-  line-height: calc(var(--h3-size-g) * 1.2);
-}
 .article__description {
   right: 25px;
   left: 25px;
@@ -82,14 +72,8 @@ main {
 .article__description p {
   opacity: 0%;
 }
-.article__description a {
-  padding: 13px;
-  font-size: 1.8rem;
-}
 
 .main__steps h3 {
-  font-size: var(--h3-size-g);
-  line-height: calc(var(--h3-size-g) * 1.2);
   margin-block-end: 60px;
 }
 .step__img img {
@@ -108,6 +92,4 @@ main {
 
 .main__benefits h3 {
   margin-block-end: 50px;
-  font-size: var(--h3-size-g);
-  line-height: calc(var(--h3-size-g) * 1.2);
 }

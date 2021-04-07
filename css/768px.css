@@ -3,6 +3,25 @@ body {
   line-height: calc(var(--p-size-m) * 1.4);
 }
 
+h1 {
+  font-size: var(--h1-size-m);
+  line-height: calc(var(--h1-size-m) * 1.2);
+}
+h2 {
+  font-size: var(--h2-size-m);
+  line-height: calc(var(--h2-size-m) * 1.2);
+}
+h3 {
+  font-size: var(--h3-size-m);
+  line-height: calc(var(--h3-size-m) * 1.2);
+}
+
+.button {
+  padding: 13px;
+  font-size: 1.8rem;
+  border-radius: 22px;
+}
+
 header {
   padding: 40px 40px 80px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-m-Efecto-180.jpg);
@@ -15,14 +34,6 @@ header {
 }
 .head__link-courses a {
   font-size: 2.2rem;
-}
-.presentation__titles h1 {
-  font-size: var(--h1-size-m);
-  line-height: calc(var(--h1-size-m) * 1.2);
-}
-.presentation__titles h2 {
-  font-size: var(--h2-size-m);
-  line-height: calc(var(--h2-size-m) * 1.2);
 }
 .presentation__text p {
   width: 55%;
@@ -37,10 +48,6 @@ main {
 .main__ourmethod {
   margin-block-end: 30px;
 }
-.ourmethod__title h3 {
-  font-size: var(--h3-size-m);
-  line-height: calc(var(--h3-size-m) * 1.4);
-}
 .ourmethod__descriptions {
   display: flex;
   justify-content: space-between;
@@ -54,18 +61,12 @@ main {
   margin: 0;
   padding: 5px;
 }
-.cards__texts h3 {
-  font-size: var(--h3-size-m);
-  line-height: calc(var(--h3-size-m) * 1.2);
-}
 
 .courses__presentation {
   margin-block-end: 30px;
 }
 .courses__presentation h3 {
   margin-block-end: 30px;
-  font-size: var(--h3-size-m);
-  line-height: calc(var(--h3-size-m) * 1.2);
 }
 .course__article {
   width: 48.5%;
@@ -75,19 +76,11 @@ main {
   right: 20px;
   left: 20px;
 }
-.article__title h3 {
-  font-size: var(--h3-size-m);
-  line-height: calc(var(--h3-size-m) * 1.2);
-}
 .article__description {
   right: 20px;
   left: 20px;
 }
 
-.main__steps h3 {
-  font-size: var(--h3-size-m);
-  line-height: calc(var(--h3-size-m) * 1.2);
-}
 .steps__container {
   display: flex;
   justify-content: space-between;
@@ -125,8 +118,6 @@ main {
 
 .main__benefits h3 {
   margin-block-end: 30px;
-  font-size: var(--h3-size-m);
-  line-height: calc(var(--h3-size-m) * 1.2);
 }
 .benefits__container {
   display: flex;

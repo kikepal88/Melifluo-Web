@@ -38,6 +38,29 @@ body {
   line-height: calc(var(--p-size-p) * 1.4);
 }
 
+h1 {
+  font-size: var(--h1-size-p);
+  line-height: calc(var(--h1-size-p) * 1.2);
+}
+h2 {
+  font-size: var(--h2-size-p);
+  line-height: calc(var(--h2-size-p) * 1.2);
+}
+h3 {
+  font-size: var(--h3-size-p);
+  line-height: calc(var(--h3-size-p) * 1.2);
+}
+
+.button {
+  padding: 12px;
+  color: var(--color_primario);
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: var(--color_secundario);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
 hr {
   border: 1px solid var(--color_secundario);
 }
@@ -91,14 +114,10 @@ header {
 }
 .presentation__titles h1 {
   margin-block-end: 15px;
-  font-size: var(--h1-size-p);
-  line-height: calc(var(--h1-size-p) * 1.2);
 }
 .presentation__titles h2 {
   width: 85%;
   margin: 0 auto;
-  font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p) * 1.2);
 }
 .presentation__text {
   margin-block-end: 30px;
@@ -118,13 +137,6 @@ header {
   display: inline;
   width: 200px;
   margin: 20px auto;
-  padding: 12px;
-  color: var(--color_primario);
-  font-size: 1.6rem;
-  font-weight: 700;
-  background-color: var(--color_secundario);
-  border-radius: 20px;
-  text-decoration: none;
 }
 
 /* ----------MAIN------------- */
@@ -146,8 +158,6 @@ main {
 }
 .ourmethod__title h3 {
   color: var(--color_secundario);
-  font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p) * 1.4);
 }
 .ourmethod__descriptions {
   width: 100%;
@@ -174,8 +184,6 @@ main {
 .cards__texts h3 {
   margin-block-end: 15px;
   color: var(--color_secundario);
-  font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p) * 1.2);
 }
 
 .main__courses {
@@ -194,8 +202,6 @@ main {
 .courses__presentation h3 {
   margin-block-end: 20px;
   color: var(--color_secundario);
-  font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p) * 1.2);
 }
 .courses__presentation strong {
   color: var(--color_secundario);
@@ -235,10 +241,6 @@ main {
   right: 15px;
   left: 15px;
 }
-.article__title h3 {
-  font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p) * 1.2);
-}
 .article__description {
   position: absolute;
   top: 55%;
@@ -252,13 +254,6 @@ main {
 }
 .article__description a {
   width: 150px;
-  padding: 12px;
-  color: var(--color_primario);
-  font-size: 1.6rem;
-  font-weight: 700;
-  background-color: var(--color_secundario);
-  border-radius: 20px;
-  text-decoration: none;
   opacity: 90%;
 }
 .article__description a:hover {
@@ -279,8 +274,6 @@ main {
 .main__steps h3 {
   margin-block-end: 20px;
   color: var(--color_secundario);
-  font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p) * 1.2);
 }
 .steps__container {
   width: 100%;
@@ -343,8 +336,6 @@ main {
 .main__benefits h3 {
   margin-block-end: 20px;
   color: var(--color_secundario);
-  font-size: var(--h3-size-p);
-  line-height: calc(var(--h3-size-p) * 1.2);
 }
 .benefits__container {
   width: 100%;
@@ -387,8 +378,6 @@ main {
 }
 .contact__title h2 {
   color: var(--color_secundario);
-  font-size: var(--h2-size-p);
-  line-height: calc(var(--h2-size-p) * 1.2);
 }
 .contact__form {
   width: 100%;
