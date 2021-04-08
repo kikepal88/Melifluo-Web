@@ -9,10 +9,11 @@ section {
 }
 
 header {
+  padding: 50px 50px 180px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-g-Efecto-180.jpg);
 }
-header {
-  padding: 50px 50px 180px;
+.header__guitar-course {
+  background-image: url(../assets/images/Guitarra_Acu/GitAcu4-g_efecto.jpg);
 }
 .header__head {
   height: 120px;

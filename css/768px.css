@@ -26,6 +26,9 @@ header {
   padding: 40px 40px 80px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-m-Efecto-180.jpg);
 }
+.header__guitar-course {
+  background-image: url(../assets/images/Guitarra_Acu/GitAcu4-m_efecto.jpg);
+}
 .header__head {
   margin-block-end: 50px;
 }

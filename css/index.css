@@ -79,6 +79,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.header__guitar-course {
+  background-image: url(../assets/images/Guitarra_Acu/GitAcu2-p_efecto.jpg);
+}
 .header__head {
   display: flex;
   justify-content: space-between;
@@ -109,6 +112,9 @@ header {
   height: auto;
   text-align: center;
 }
+.header__presentation.guitar-course {
+  text-align: start;
+}
 .presentation__titles {
   margin-block-end: 20px;
 }
@@ -119,8 +125,15 @@ header {
   width: 85%;
   margin: 0 auto;
 }
+.presentation__titles h2 span {
+  color: var(--color_secundario);
+}
 .presentation__text {
   margin-block-end: 30px;
+}
+.presentation__text li {
+  margin-block-end: 10px;
+  list-style: none;
 }
 .presentation__text p {
   font-weight: 500;
