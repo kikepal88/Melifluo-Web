@@ -3,17 +3,27 @@ body {
   box-shadow: 2px 10px 50px 2px var(--color_secundario);
 }
 
-section {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 header {
   padding: 50px 50px 180px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-g-Efecto-180.jpg);
 }
 .header__guitar-course {
   background-image: url(../assets/images/Guitarra_Acu/GitAcu4-g_efecto.jpg);
+}
+.header__bajo-course {
+  background-image: url(../assets/images/Bajo/Bajo3-g_efecto.jpg);
+}
+.header__batery-course {
+  background-image: url(../assets/images/Bateria/Bateria3-g_efecto.jpg);
+}
+.header__electguitar-course {
+  background-image: url(../assets/images/Guitarra_Elec/GitEle3-g_efecto.jpg);
+}
+.header__piano-course {
+  background-image: url(../assets/images/Piano/Piano3-g_efecto.jpg);
+}
+.header__sing-course {
+  background-image: url(../assets/images/Canto/Canto1-g_efecto.jpg);
 }
 .header__head {
   height: 120px;

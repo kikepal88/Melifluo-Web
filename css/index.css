@@ -82,6 +82,21 @@ header {
 .header__guitar-course {
   background-image: url(../assets/images/Guitarra_Acu/GitAcu2-p_efecto.jpg);
 }
+.header__bajo-course {
+  background-image: url(../assets/images/Bajo/Bajo3-p_efecto.jpg);
+}
+.header__batery-course {
+  background-image: url(../assets/images/Bateria/Bateria3-p_efecto.jpg);
+}
+.header__electguitar-course {
+  background-image: url(../assets/images/Guitarra_Elec/GitEle3-p_efecto.jpg);
+}
+.header__piano-course {
+  background-image: url(../assets/images/Piano/Piano3-p_efecto.jpg);
+}
+.header__sing-course {
+  background-image: url(../assets/images/Canto/Canto1-p_efecto.jpg);
+}
 .header__head {
   display: flex;
   justify-content: space-between;
