@@ -448,7 +448,7 @@ footer {
   height: 60px;
 }
 
-.footer__contact a {
+.contact__form a {
   color: var(--color_secundario);
   text-decoration: none;
 }
