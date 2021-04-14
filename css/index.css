@@ -64,14 +64,6 @@ h3 {
   text-decoration: none;
 }
 
-hr {
-  border: 1px solid var(--color_secundario);
-}
-.division-intermediate {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 header {
   width: 100%;
   height: auto;
@@ -172,23 +164,26 @@ header {
 
 /* ----------MAIN------------- */
 
+section {
+  padding: 30px 20px;
+}
+
 main {
   width: 100%;
   height: auto;
-  padding: 30px 20px;
 }
 .main__ourmethod {
   width: 100%;
   height: auto;
-  margin-block-end: 50px;
   text-align: center;
-  color: var(--color_claro);
+  color: var(--color_primario);
+  background-color: var(--color_secundario);
 }
 .ourmethod__title {
-  margin: 0 auto 35px;
+  margin: 0 auto;
 }
-.ourmethod__title h3 {
-  color: var(--color_secundario);
+.ourmethod__title h2 {
+  color: var(--color_primario);
 }
 .ourmethod__descriptions {
   width: 100%;
@@ -197,14 +192,14 @@ main {
 .description__cards {
   width: 100%;
   height: auto;
-  margin-block-end: 25px;
+  margin-block-start: 25px;
   text-align: center;
   border-radius: 10px;
 }
 .cards__img {
   width: 25%;
-  max-width: 60px;
-  margin: 15px auto;
+  max-width: 80px;
+  margin: 5px auto;
 }
 .cards__img img {
   width: 100%;
@@ -213,28 +208,22 @@ main {
   width: 100%;
 }
 .cards__texts h3 {
-  margin-block-end: 15px;
-  color: var(--color_secundario);
+  margin-block-end: 5px;
+  color: var(--color_claro);
 }
 
 .main__courses {
   width: 100%;
   height: auto;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
   color: var(--color_claro);
   text-align: center;
 }
 .courses__presentation {
   width: 100%;
   height: auto;
-  margin-block-end: 20px;
 }
-.courses__presentation h3 {
+.courses__presentation h2 {
   margin-block-end: 20px;
-  color: var(--color_secundario);
-}
-.courses__presentation strong {
   color: var(--color_secundario);
 }
 .courses__container {
@@ -246,7 +235,7 @@ main {
   color: var(--color_claro);
   width: 100%;
   height: 300px;
-  margin-block-end: 20px;
+  margin-block-start: 20px;
   padding: 20px;
   overflow: hidden;
   text-align: center;
@@ -297,14 +286,9 @@ main {
 .main__steps {
   width: 100%;
   height: auto;
-  margin-block-start: 50px;
-  margin-block-end: 50px;
-  color: var(--color_claro);
+  color: var(--color_primario);
+  background-color: var(--color_secundario);
   text-align: center;
-}
-.main__steps h3 {
-  margin-block-end: 20px;
-  color: var(--color_secundario);
 }
 .steps__container {
   width: 100%;
@@ -316,14 +300,14 @@ main {
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
-  margin-block-end: 20px;
+  margin-block-start: 20px;
 }
 .step__img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
 }
 .step__img img {
   width: 100%;
@@ -335,7 +319,7 @@ main {
   align-items: center;
   width: 25px;
   height: 25px;
-  background-color: var(--color_secundario);
+  background-color: var(--color_claro);
   border-radius: 50%;
 }
 .steps__individual-step .step__number h3 {
@@ -349,7 +333,7 @@ main {
   z-index: 0;
   width: 1px;
   height: 320%;
-  border: 0.1px solid var(--color_secundario);
+  border: 0.1px solid var(--color_claro);
 }
 .steps__individual-step p {
   max-width: 70%;
