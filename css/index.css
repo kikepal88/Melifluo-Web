@@ -368,6 +368,8 @@ main {
 }
 .benefits__img img {
   width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
 .individual__benefits p {
   max-width: 80%;
