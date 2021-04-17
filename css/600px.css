@@ -10,14 +10,12 @@ header {
 
 /* ----------MAIN------------- */
 
-main {
-  padding: 50px 30px;
+section {
+  padding: 30px;
 }
-.ourmethod__title {
-  margin-block-end: 40px;
-}
+
 .description__cards {
-  margin-block-end: 30px;
+  margin-block-start: 30px;
 }
 
 .courses__container {
@@ -30,23 +28,27 @@ main {
   width: 48%;
   height: 320px;
 }
-
-.main__steps h3 {
-  margin-block-end: 30px;
+.article__description {
+  top: 50%;
 }
+
 .steps__individual-step {
-  margin-block-end: 30px;
-  padding: 0 15px;
+  justify-content: flex-start;
+  margin-block-start: 30px;
 }
 .step__img {
   width: 55px;
   height: 55px;
+  margin-inline-end: 20px;
+}
+.step__number {
+  margin-inline-end: 20px;
 }
 .steps__union {
   height: 260%;
 }
 .steps__individual-step p {
-  max-width: 70%;
+  max-width: 78%;
 }
 
 .individual__benefits {
@@ -57,4 +59,15 @@ main {
 }
 .individual__benefits p {
   max-width: 87%;
+}
+
+/* ----------FOOTER------------- */
+
+.footer__icon-rights {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer__icon-rights img {
+  margin-inline-end: 10px;
 }
