@@ -1,12 +1,9 @@
-header {
-  padding: 40px 40px 120px;
-}
 .header__head {
   margin-block-end: 90px;
 }
 
-.presentation__text p {
-  width: 55%;
+.presentation__text h3 {
+  width: 70%;
 }
 .presentation__text {
   margin-block-end: 40px;
@@ -14,20 +11,15 @@ header {
 
 /* ----------MAIN------------- */
 
-.main__ourmethod {
-  margin-block-end: 50px;
-}
-
 .course__article {
   width: 32%;
   height: 370px;
 }
-.main__courses {
-  margin-block-start: 60px;
-  margin-block-end: 60px;
+.courses__presentation h3 {
+  margin-block-end: 20px;
 }
-.courses__presentation {
-  margin-block-end: 35px;
+.article__description {
+  top: 55%;
 }
 
 .steps__individual-step {
