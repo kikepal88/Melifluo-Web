@@ -7,16 +7,16 @@
   --h1-size-m: 4.2rem;
   --h1-size-g: 6.5rem;
   --h2-size-p: 2.6rem;
-  --h2-size-m: 3.1rem;
+  --h2-size-m: 3rem;
   --h2-size-g: 3.2rem;
   --h3-size-p: 2rem;
   --h3-size-m: 2.3rem;
   --h3-size-g: 2.5rem;
   --h4-size-p: 1.8rem;
   --h4-size-m: 2rem;
-  --h4-size-g: 2.5rem;
+  --h4-size-g: 2.2rem;
   --p-size-p: 1.5rem;
-  --p-size-m: 1.6rem;
+  --p-size-m: 1.5rem;
   --p-size-g: 1.5rem;
 }
 
@@ -67,7 +67,6 @@ h3 {
 header {
   width: 100%;
   height: auto;
-  padding: 10px 20px 50px;
   color: var(--color_claro);
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-p-Efecto-180.jpg);
   background-position: center;
@@ -145,7 +144,7 @@ header {
   margin-block-end: 10px;
   list-style: none;
 }
-.presentation__text p {
+.presentation__text h3 {
   font-weight: 500;
 }
 .presentation__button-container {

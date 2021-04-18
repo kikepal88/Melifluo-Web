@@ -23,7 +23,8 @@ h3 {
 }
 
 header {
-  padding: 40px 40px 80px;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-m-Efecto-180.jpg);
 }
 .header__guitar-course {
@@ -53,18 +54,18 @@ header {
 .head__link-courses a {
   font-size: 2.2rem;
 }
-.presentation__text p {
-  width: 55%;
-  font-weight: 700;
+.presentation__text h3 {
+  width: 90%;
 }
 
 /* ----------MAIN------------- */
 
-main {
-  padding: 50px 40px;
+section {
+  padding: 40px;
 }
-.main__ourmethod {
-  margin-block-end: 30px;
+
+.ourmethod__title {
+  margin-block-end: 10px;
 }
 .ourmethod__descriptions {
   display: flex;
@@ -80,11 +81,8 @@ main {
   padding: 5px;
 }
 
-.courses__presentation {
-  margin-block-end: 30px;
-}
 .courses__presentation h3 {
-  margin-block-end: 30px;
+  margin-block-end: 10px;
 }
 .course__article {
   width: 48.5%;
@@ -95,10 +93,14 @@ main {
   left: 20px;
 }
 .article__description {
+  top: 60%;
   right: 20px;
   left: 20px;
 }
 
+.main__steps h2 {
+  margin-block-end: 30px;
+}
 .steps__container {
   display: flex;
   justify-content: space-between;
@@ -120,22 +122,25 @@ main {
   width: 30px;
   height: 30px;
   margin: 15px auto;
-  background-color: var(--color_secundario);
   border-radius: 50%;
+}
+.step__number h3 {
+  font-weight: 600;
 }
 .steps__union {
   top: 15px;
   left: 30px;
-  width: 585%;
+  width: 581%;
   height: 1px;
 }
 .steps__individual-step p {
   max-width: 100%;
+  font-weight: 500;
   text-align: center;
 }
 
-.main__benefits h3 {
-  margin-block-end: 30px;
+.main__benefits h2 {
+  margin-block-end: 20px;
 }
 .benefits__container {
   display: flex;
@@ -145,4 +150,24 @@ main {
 }
 .individual__benefits {
   width: 48%;
+}
+
+.main__video {
+  padding-block-start: 10px;
+}
+.main__video h2 {
+  margin-block-end: 30px;
+}
+.main__video video {
+  max-width: 759px;
+}
+
+/* ----------FOOTER------------- */
+
+footer section {
+  padding-block-start: 20px;
+  padding-block-end: 20px;
+}
+.footer__icon-rights img {
+  width: 150px;
 }

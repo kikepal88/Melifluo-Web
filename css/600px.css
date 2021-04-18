@@ -1,11 +1,8 @@
-header {
-  padding: 20px 30px 70px;
-}
 .header__head {
   margin-block-end: 40px;
 }
-.presentation__text p {
-  width: 60%;
+.presentation__text h3 {
+  width: 100%;
 }
 
 /* ----------MAIN------------- */
