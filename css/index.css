@@ -3,20 +3,20 @@
   --color_secundario: #fabb31;
   --color_claro: white;
   --Fuente1: "Roboto Condensed", sans-serif;
-  --h1-size-p: 3.5rem;
+  --h1-size-p: 3.1rem;
   --h1-size-m: 4.2rem;
   --h1-size-g: 6.5rem;
-  --h2-size-p: 2.6rem;
-  --h2-size-m: 3rem;
+  --h2-size-p: 1.7rem;
+  --h2-size-m: 2.5rem;
   --h2-size-g: 3.2rem;
-  --h3-size-p: 2rem;
-  --h3-size-m: 2.3rem;
+  --h3-size-p: 1.7rem;
+  --h3-size-m: 2.1rem;
   --h3-size-g: 2.5rem;
-  --h4-size-p: 1.8rem;
-  --h4-size-m: 2rem;
+  --h4-size-p: 1.6rem;
+  --h4-size-m: 1.9rem;
   --h4-size-g: 2.2rem;
-  --p-size-p: 1.5rem;
-  --p-size-m: 1.5rem;
+  --p-size-p: 1.4rem;
+  --p-size-m: 1.45rem;
   --p-size-g: 1.5rem;
 }
 
@@ -55,12 +55,12 @@ h3 {
 }
 
 .button {
-  padding: 12px;
+  padding: 10px;
   color: var(--color_primario);
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 700;
   background-color: var(--color_secundario);
-  border-radius: 20px;
+  border-radius: 8px;
   text-decoration: none;
 }
 
@@ -96,18 +96,18 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 80px;
-  margin-block-end: 30px;
+  height: 120px;
+  margin-block-start: 12%;
 }
 .head__logo {
-  width: 120px;
+  width: 75px;
 }
 .head__logo img {
   width: 100%;
 }
 .head__link-courses a {
   color: var(--color_secundario);
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 700;
   text-decoration: none;
   opacity: 1;
@@ -119,26 +119,27 @@ header {
 .header__presentation {
   width: 100%;
   height: auto;
-  text-align: center;
+  margin-block-end: 12%;
+  padding-block-start: 210px;
+  text-align: start;
 }
 .header__presentation.guitar-course {
   text-align: start;
 }
 .presentation__titles {
-  margin-block-end: 20px;
+  margin-block-end: 45px;
 }
 .presentation__titles h1 {
   margin-block-end: 15px;
 }
 .presentation__titles h2 {
-  width: 85%;
-  margin: 0 auto;
+  width: 100%;
 }
 .presentation__titles h2 span {
   color: var(--color_secundario);
 }
 .presentation__text {
-  margin-block-end: 30px;
+  margin-block-end: 45px;
 }
 .presentation__text li {
   margin-block-end: 10px;
@@ -148,6 +149,7 @@ header {
   font-weight: 500;
 }
 .presentation__button-container {
+  text-align: center;
   transform-origin: center;
   opacity: 1;
 }
@@ -156,15 +158,13 @@ header {
   opacity: 0.7;
 }
 .presentation__button {
-  display: inline;
-  width: 200px;
   margin: 20px auto;
 }
 
 /* ----------MAIN------------- */
 
 section {
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 main {
@@ -198,7 +198,7 @@ main {
 .cards__img {
   width: 25%;
   max-width: 80px;
-  margin: 5px auto;
+  margin: 3px auto;
 }
 .cards__img img {
   width: 100%;
@@ -209,6 +209,10 @@ main {
 .cards__texts h3 {
   margin-block-end: 5px;
   color: var(--color_claro);
+  font-weight: 700;
+}
+.cards__texts p {
+  font-weight: 500;
 }
 
 .main__courses {
@@ -222,7 +226,7 @@ main {
   height: auto;
 }
 .courses__presentation h2 {
-  margin-block-end: 20px;
+  margin-block-end: 15px;
   color: var(--color_secundario);
 }
 .courses__container {
@@ -260,6 +264,9 @@ main {
   right: 15px;
   left: 15px;
 }
+.article__title h3 {
+  font-weight: 700;
+}
 .article__description {
   position: absolute;
   top: 55%;
@@ -273,6 +280,7 @@ main {
 }
 .article__description a {
   width: 150px;
+  border-radius: 19px;
   opacity: 90%;
 }
 .article__description a:hover {
