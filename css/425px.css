@@ -1,19 +1,8 @@
-.header__presentation {
-  text-align: start;
-}
-.presentation__titles h2 {
-  margin: 0;
-}
-
 /* ----------MAIN------------- */
 
 .steps__union {
-  height: 250%;
+  height: 260%;
 }
 .steps__individual-step p {
-  max-width: 75%;
-}
-
-.individual__benefits p {
-  max-width: 83%;
+  max-width: 72%;
 }

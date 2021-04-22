@@ -313,6 +313,7 @@ main {
 }
 .step__img img {
   width: 100%;
+  object-fit: cover;
 }
 .step__number {
   position: relative;

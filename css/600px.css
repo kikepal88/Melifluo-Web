@@ -1,18 +1,25 @@
-.header__head {
-  margin-block-end: 40px;
+.head__logo {
+  width: 120px;
 }
 .presentation__text h3 {
-  width: 100%;
+  width: 75%;
+}
+.presentation__button-container {
+  text-align: start;
 }
 
 /* ----------MAIN------------- */
 
 section {
-  padding: 30px;
+  padding: 35px;
 }
 
 .description__cards {
   margin-block-start: 30px;
+}
+.cards__texts {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .courses__container {
@@ -26,7 +33,7 @@ section {
   height: 320px;
 }
 .article__description {
-  top: 50%;
+  top: 60%;
 }
 
 .steps__individual-step {
@@ -34,15 +41,10 @@ section {
   margin-block-start: 30px;
 }
 .step__img {
-  width: 55px;
-  height: 55px;
-  margin-inline-end: 20px;
+  margin-inline-end: 10px;
 }
 .step__number {
   margin-inline-end: 20px;
-}
-.steps__union {
-  height: 260%;
 }
 .steps__individual-step p {
   max-width: 78%;
@@ -60,11 +62,24 @@ section {
 
 /* ----------FOOTER------------- */
 
+footer {
+  flex-wrap: nowrap;
+}
+
 .footer__icon-rights {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 60%;
+  padding: 20px 0 20px 35px;
+  order: 1;
 }
 .footer__icon-rights img {
   margin-inline-end: 10px;
+}
+.footer__contact {
+  flex-wrap: nowrap;
+  width: 35%;
+  padding: 20px 35px 20px 0;
+  order: 2;
 }
