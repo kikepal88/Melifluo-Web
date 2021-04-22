@@ -6,7 +6,7 @@
   --h1-size-p: 3.1rem;
   --h1-size-m: 4.2rem;
   --h1-size-g: 6.5rem;
-  --h2-size-p: 2rem;
+  --h2-size-p: 1.7rem;
   --h2-size-m: 2.5rem;
   --h2-size-g: 3.2rem;
   --h3-size-p: 1.7rem;
@@ -35,7 +35,6 @@ body {
   font-size: var(--p-size-p);
   font-family: var(--Fuente1);
   line-height: calc(var(--p-size-p) * 1.4);
-  font-weight: 400;
 }
 
 h1 {
@@ -55,7 +54,7 @@ h3 {
 }
 
 .button {
-  padding: 10px;
+  padding: 8px;
   color: var(--color_primario);
   font-size: 1.7rem;
   font-weight: 700;
@@ -276,7 +275,7 @@ main {
 }
 .article__description a {
   width: 150px;
-  border-radius: 19px;
+  border-radius: 18px;
   opacity: 90%;
 }
 .article__description a:hover {
@@ -309,8 +308,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
 }
 .step__img img {
   width: 100%;
@@ -335,11 +334,12 @@ main {
   left: center;
   z-index: 0;
   width: 1px;
-  height: 320%;
+  height: 308%;
   border: 0.1px solid var(--color_claro);
 }
 .steps__individual-step p {
   max-width: 70%;
+  font-weight: 500;
   text-align: start;
 }
 
@@ -360,7 +360,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-block-start: 20px;
+  margin-block-start: 30px;
 }
 .benefits__img {
   display: flex;
@@ -382,7 +382,7 @@ main {
 .main__video {
   width: 100%;
   height: auto;
-  padding-block-start: 0;
+  padding-block-start: 10px;
   text-align: center;
 }
 .main__video h2 {
@@ -444,36 +444,50 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   color: var(--color_primario);
-  font-weight: 700;
   background-color: var(--color_secundario);
 }
 
 .footer__icon-rights {
   width: 100%;
   height: auto;
-  padding-inline-end: 0;
+  padding: 5px 30px 15px;
+  text-align: center;
+  order: 2;
 }
 .footer__icon-rights img {
   width: 120px;
 }
 .footer__contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-inline-start: 0;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px 30px 5px;
+  order: 1;
 }
 .contact__social {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .social__img {
-  margin-inline-end: 10px;
+  width: 30px;
+  margin: 0 5px;
+}
+.social__img img {
+  width: 100%;
+}
+.contact__form {
+  text-align: center;
 }
 .contact__form a {
   color: var(--color_primario);
+  font-weight: 600;
   text-decoration: none;
 }
