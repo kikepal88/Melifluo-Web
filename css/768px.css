@@ -17,9 +17,9 @@ h3 {
 }
 
 .button {
-  padding: 13px;
+  padding: 10px;
   font-size: 1.8rem;
-  border-radius: 22px;
+  border-radius: 10px;
 }
 
 header {
@@ -45,17 +45,18 @@ header {
 .header__sing-course {
   background-image: url(../assets/images/Canto/Canto1-m_efecto.jpg);
 }
-.header__head {
-  margin-block-end: 50px;
-}
+
 .head__logo {
   width: 150px;
 }
 .head__link-courses a {
-  font-size: 2.2rem;
+  font-size: 2rem;
+}
+.presentation__titles {
+  margin-block-end: 20px;
 }
 .presentation__text h3 {
-  width: 90%;
+  width: 80%;
 }
 
 /* ----------MAIN------------- */
@@ -64,9 +65,6 @@ section {
   padding: 40px;
 }
 
-.ourmethod__title {
-  margin-block-end: 10px;
-}
 .ourmethod__descriptions {
   display: flex;
   justify-content: space-between;
@@ -75,7 +73,7 @@ section {
   height: auto;
 }
 .description__cards {
-  max-width: 32%;
+  max-width: 33%;
   height: auto;
   margin: 0;
   padding: 5px;
