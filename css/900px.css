@@ -1,22 +1,22 @@
 .header__head {
-  margin-block-end: 90px;
+  padding-block-start: 40px;
 }
-
 .presentation__text h3 {
-  width: 70%;
+  width: 65%;
 }
 .presentation__text {
-  margin-block-end: 40px;
+  margin-block-end: 50px;
 }
 
 /* ----------MAIN------------- */
 
+.description__cards {
+  max-width: 300px;
+}
+
 .course__article {
   width: 32%;
-  height: 370px;
-}
-.courses__presentation h3 {
-  margin-block-end: 20px;
+  height: 360px;
 }
 .article__description {
   top: 55%;
