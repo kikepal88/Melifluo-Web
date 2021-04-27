@@ -117,7 +117,7 @@ header {
 .header__presentation {
   width: 100%;
   height: auto;
-  padding-block-start: 120px;
+  padding-block-start: 150px;
   text-align: start;
 }
 .header__presentation.guitar-course {
@@ -143,7 +143,7 @@ header {
   font-weight: 500;
 }
 .presentation__button-container {
-  margin-block-end: 20px;
+  margin-block-end: 30px;
   text-align: center;
   transform-origin: center;
   opacity: 1;
@@ -270,7 +270,7 @@ main {
 }
 .article__description p {
   margin-block-end: 20px;
-  font-weight: 700;
+  font-weight: 500;
   opacity: 100%;
 }
 .article__description a {

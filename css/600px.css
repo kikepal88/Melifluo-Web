@@ -78,8 +78,16 @@ footer {
   margin-inline-end: 10px;
 }
 .footer__contact {
+  justify-content: flex-end;
   flex-wrap: nowrap;
-  width: 35%;
+  width: 30%;
   padding: 20px 35px 20px 0;
   order: 2;
+}
+.contact__social {
+  justify-content: flex-end;
+  margin-inline-end: 10px;
+}
+.contact__form {
+  text-align: start;
 }

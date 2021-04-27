@@ -23,8 +23,6 @@ h3 {
 }
 
 header {
-  padding-block-start: 30px;
-  padding-block-end: 30px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-m-Efecto-180.jpg);
 }
 .header__guitar-course {
@@ -56,27 +54,39 @@ header {
   margin-block-end: 20px;
 }
 .presentation__text h3 {
-  width: 80%;
+  width: 73%;
+}
+.presentation__button-container {
+  margin-block-end: 50px;
 }
 
 /* ----------MAIN------------- */
 
 section {
-  padding: 40px;
+  padding: 30px 40px;
 }
 
 .ourmethod__descriptions {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   height: auto;
+  margin-block-start: 30px;
 }
 .description__cards {
   max-width: 33%;
   height: auto;
   margin: 0;
   padding: 5px;
+}
+.cards__img {
+  width: 30%;
+  margin: 5px auto;
+}
+.cards__texts {
+  width: 100%;
+  margin: 0;
 }
 
 .courses__presentation h3 {
@@ -111,10 +121,9 @@ section {
   padding: 0;
 }
 .step__img {
-  width: 100%;
-}
-.step__img img {
-  width: 55px;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
 }
 .step__number {
   width: 30px;
@@ -137,9 +146,6 @@ section {
   text-align: center;
 }
 
-.main__benefits h2 {
-  margin-block-end: 20px;
-}
 .benefits__container {
   display: flex;
   justify-content: space-between;
@@ -162,10 +168,17 @@ section {
 
 /* ----------FOOTER------------- */
 
-footer section {
+/* footer section {
   padding-block-start: 20px;
   padding-block-end: 20px;
+} */
+.footer__icon-rights {
+  padding: 20px 0 20px 40px;
 }
 .footer__icon-rights img {
   width: 150px;
+}
+.footer__contact {
+  width: 25%;
+  padding: 20px 40px 20px 0;
 }
