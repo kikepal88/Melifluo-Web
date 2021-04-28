@@ -1,10 +1,4 @@
-body {
-  margin: 0 auto;
-  box-shadow: 2px 10px 50px 2px var(--color_secundario);
-}
-
 header {
-  padding: 50px 50px 180px;
   background-image: url(../assets/images/Guitarra_Elec/GitEle1-g-Efecto-180.jpg);
 }
 .header__guitar-course {
@@ -27,37 +21,21 @@ header {
 }
 .header__head {
   height: 120px;
-  margin-block-end: 150px;
+  padding-block-start: 70px;
 }
-.presentation__text p {
-  width: 40%;
+.header__presentation {
+  padding-block-start: 270px;
 }
 
 /* ----------MAIN------------- */
 
 .cards__texts h3 {
-  margin-block-end: 20px;
+  margin-block-end: 10px;
 }
 
 .course__article {
   height: 420px;
 }
-.article__title {
-  right: 15px;
-  left: 15px;
-}
 .article__description {
-  top: 60%;
-  right: 15px;
-  left: 15px;
-}
-
-.main__steps h3 {
-  margin-block-end: 70px;
-}
-.step__number {
-  margin: 40px auto;
-}
-.steps__union {
-  width: 950%;
+  top: 65%;
 }

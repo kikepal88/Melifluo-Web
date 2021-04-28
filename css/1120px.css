@@ -94,6 +94,7 @@ section {
 
 .main__steps h2 {
   max-width: 1120px;
+  margin: 0 auto 30px;
 }
 .main__steps .steps__container {
   max-width: 1120px;
@@ -103,8 +104,8 @@ section {
   max-width: 220px;
 }
 .step__img {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
 }
 .step__number {
   width: 35px;
