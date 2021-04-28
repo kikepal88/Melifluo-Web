@@ -43,6 +43,10 @@ h3 {
 
 /* ----------MAIN------------- */
 
+section {
+  padding: 40px;
+}
+
 .main__ourmethod .ourmethod__title {
   max-width: 1120px;
 }
@@ -51,6 +55,104 @@ h3 {
   margin: 30px auto 0;
 }
 
+.main__courses .courses__presentation {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.main__courses .courses__container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.course__article {
+  height: 400px;
+}
+.course__article:hover img {
+  opacity: 50%;
+  transition: 0.7s;
+}
+.course__article:hover p {
+  opacity: 100%;
+  transition: 0.7s;
+}
+.article__title {
+  right: 25px;
+  left: 25px;
+}
+.article__description {
+  top: 60%;
+  right: 25px;
+  left: 25px;
+}
+.article__description p {
+  opacity: 0%;
+}
+.article__description a {
+  padding: 10px;
+  font-size: 2.2rem;
+  border-radius: 21px;
+}
+
+.main__steps h2 {
+  max-width: 1120px;
+}
+.main__steps .steps__container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.steps__individual-step {
+  max-width: 220px;
+}
+.step__img {
+  width: 80px;
+  height: 80px;
+}
+.step__number {
+  width: 35px;
+  height: 35px;
+  margin: 20px auto;
+}
 .steps__union {
-  width: 905%;
+  top: 17.5px;
+  left: 35px;
+  width: 780%;
+}
+
+.main__benefits h2 {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.main__benefits .benefits__container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.benefits__container .individual__benefits:nth-child(2n) {
+  justify-content: flex-end;
+}
+.individual__benefits {
+  margin-block-start: 35px;
+}
+.individual__benefits p {
+  max-width: 71%;
+}
+
+/* ----------FOOTER------------- */
+
+footer {
+  justify-content: center;
+  height: 160px;
+}
+.footer__icon-rights img {
+  width: 180px;
+}
+.footer__contact {
+  width: 25%;
+  padding: 20px 40px 20px 0;
+}
+.social__img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+.contact__form {
+  font-size: 2rem;
 }
