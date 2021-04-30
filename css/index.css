@@ -492,3 +492,26 @@ footer {
   font-weight: 600;
   text-decoration: none;
 }
+
+/* ----------BUTTON UP------------- */
+
+.main__button-up {
+  position: fixed;
+  top: 93%;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: var(--color_claro);
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.main__button-up a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.main__button-up img {
+  width: 80%;
+}
