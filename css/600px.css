@@ -32,9 +32,6 @@ section {
   width: 48%;
   height: 320px;
 }
-.article__description {
-  top: 60%;
-}
 
 .steps__individual-step {
   justify-content: flex-start;

@@ -264,9 +264,9 @@ main {
 }
 .article__description {
   position: absolute;
-  top: 55%;
   right: 15px;
   left: 15px;
+  bottom: 10%;
 }
 .article__description p {
   margin-block-end: 20px;
@@ -283,6 +283,20 @@ main {
   background-color: var(--color_primario);
   opacity: 100%;
   transition: 0.3s;
+}
+.article__melifluo-logo {
+  position: absolute;
+  right: 5px;
+  bottom: 15px;
+  z-index: 3;
+  width: 60px;
+  height: auto;
+}
+.article__melifluo-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .main__steps {
