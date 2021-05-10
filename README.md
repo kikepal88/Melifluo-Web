@@ -2,7 +2,8 @@
 
 # Melifluo
 Página Web de pre-lanzamiento de Melifluo.
-##Escuela online para aficionados a la música.
+
+## Escuela online para aficionados a la música.
 Aprende a tocar tu instrumento favorito desde cero, toca canciones en poco tiempo. Inspira tu vida, rétate a ti mismo. Llena tu vida con arte.
 
 Creamos un método de aprendizaje único para principiantes, lograrás resultados en tan solo 20 horas de práctica.
