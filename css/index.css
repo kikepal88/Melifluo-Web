@@ -63,6 +63,8 @@ h3 {
   text-decoration: none;
 }
 
+/* ----------HEADER------------- */
+
 header {
   width: 100%;
   height: auto;
@@ -117,10 +119,10 @@ header {
 .header__presentation {
   width: 100%;
   height: auto;
-  padding-block-start: 150px;
+  padding-block-start: 180px;
   text-align: start;
 }
-.header__presentation.guitar-course {
+.header__presentation.courses {
   text-align: start;
 }
 .presentation__titles {
@@ -154,6 +156,25 @@ header {
 }
 .presentation__button {
   margin: 20px auto;
+}
+
+/* ----------COURSES-HEADER------------- */
+
+.header__electguitar-course section {
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+}
+.header__presentation.courses h1 {
+  color: var(--color_secundario);
+}
+.header__presentation.courses h3 {
+  margin-block-end: 15px;
+  font-weight: 400;
+}
+.header__presentation.courses .second {
+  margin-block-start: 3px;
+  margin-block-end: 50px;
+  color: var(--color_secundario);
 }
 
 /* ----------MAIN------------- */
