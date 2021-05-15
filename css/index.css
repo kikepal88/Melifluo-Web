@@ -405,8 +405,8 @@ main {
   height: 50px;
 }
 .benefits__img img {
-  width: 50px;
-  height: 50px;
+  display: block;
+  width: 100%;
   object-fit: cover;
 }
 .individual__benefits p {
@@ -454,6 +454,20 @@ main {
 }
 .main__courses .cards__texts p {
   font-weight: 400;
+}
+
+.main__courses .benefits__container {
+  margin-block-end: 40px;
+}
+.main__courses .benefits__img {
+  width: 60px;
+  height: 60px;
+}
+.main__courses .individual__benefits p {
+  max-width: 77%;
+}
+.main__courses .individual__benefits p span {
+  color: var(--color_secundario);
 }
 
 /* ----------CONTACT-MAIN------------- */
