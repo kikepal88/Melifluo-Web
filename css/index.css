@@ -1,6 +1,7 @@
 :root {
   --color_primario: #1d1c1a;
   --color_secundario: #fabb31;
+  --color_variante: #424242;
   --color_claro: white;
   --Fuente1: "Roboto Condensed", sans-serif;
   --h1-size-p: 3.1rem;
@@ -468,6 +469,80 @@ main {
 }
 .main__courses .individual__benefits p span {
   color: var(--color_secundario);
+}
+
+.main-courses__playlist {
+  width: 100%;
+  height: auto;
+  background-color: var(--color_secundario);
+}
+.playlist__title {
+  width: 100%;
+  height: auto;
+  margin-block-end: 20px;
+  color: var(--color_primario);
+}
+.playlist__container {
+  width: 100%;
+  height: auto;
+}
+.playlist__container article {
+  width: 100%;
+  height: 100%;
+  color: var(--color_claro);
+}
+.playlist__module {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: var(--color_primario);
+  border-block-end: 1px solid var(--color_secundario);
+}
+.playlist__module .module__img {
+  width: 10%;
+  color: var(--color_secundario);
+}
+.playlist__module .module__name {
+  width: 70%;
+  text-align: start;
+}
+.playlist__module .module__number-class {
+  width: 20%;
+  text-align: end;
+  opacity: 0.8;
+}
+.module__class-conteiner {
+  background-color: var(--color_variante);
+  padding: 5px;
+}
+.module__class-conteiner article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.module__class-conteiner .class__img {
+  width: 10%;
+}
+.class__img img {
+  display: block;
+  width: 90%;
+}
+.module__class-conteiner .class__name {
+  width: 60%;
+  text-align: start;
+}
+.module__class-conteiner .class__duration {
+  width: 20%;
+  text-align: end;
+  opacity: 0.8;
 }
 
 /* ----------CONTACT-MAIN------------- */
