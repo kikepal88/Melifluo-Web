@@ -545,6 +545,37 @@ main {
   opacity: 0.8;
 }
 
+.main__include {
+  width: 100%;
+  height: auto;
+  color: var(--color_claro);
+  text-align: center;
+}
+.main__include h2 {
+  color: var(--color_secundario);
+}
+.include__container {
+  width: 100%;
+  height: auto;
+  margin-block-end: 40px;
+}
+.individual__include {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-start: 15px;
+}
+.include__indicator-symbol {
+  width: 15px;
+  height: 12px;
+  background-color: var(--color_secundario);
+  border-radius: 55% 35% 55% 35%;
+}
+.individual__include p {
+  width: 90%;
+  text-align: start;
+}
+
 /* ----------CONTACT-MAIN------------- */
 
 .contact__main {
