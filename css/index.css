@@ -576,6 +576,29 @@ main {
   text-align: start;
 }
 
+.main-courses__musicbook {
+  width: 100%;
+  height: auto;
+  color: var(--color_primario);
+  background-color: var(--color_secundario);
+}
+.main-courses__musicbook h2 {
+  margin-block-end: 25px;
+}
+.musicbook__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-block-end: 25px;
+}
+.musicbook__img img {
+  display: block;
+  width: 90px;
+  object-fit: cover;
+}
+
 /* ----------CONTACT-MAIN------------- */
 
 .contact__main {
