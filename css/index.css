@@ -599,6 +599,43 @@ main {
   object-fit: cover;
 }
 
+.main-courses__warranty {
+  width: 100%;
+  height: auto;
+  color: var(--color_claro);
+  background-color: var(--color_primario);
+}
+.main-courses__warranty h2 {
+  margin-block-end: 25px;
+  color: var(--color_secundario);
+}
+.warranty__description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+  margin-block-end: 40px;
+}
+.warranty__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  margin-inline-end: 10px;
+}
+.warranty__img img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.warranty__description p {
+  width: 65%;
+  text-align: start;
+}
+
 /* ----------CONTACT-MAIN------------- */
 
 .contact__main {
