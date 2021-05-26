@@ -789,6 +789,17 @@ footer {
   text-decoration: none;
 }
 
+/* ----------FOOTER COURSES------------- */
+
+.footer__courses {
+  color: var(--color_secundario);
+  background-color: var(--color_primario);
+}
+
+.footer__courses .contact__form a {
+  color: var(--color_secundario);
+}
+
 /* ----------BUTTON UP------------- */
 
 .main__button-up {
