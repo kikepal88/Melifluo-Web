@@ -503,8 +503,23 @@ main {
   border-block-end: 1px solid var(--color_secundario);
 }
 .playlist__module .module__img {
-  width: 10%;
-  color: var(--color_secundario);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+}
+.playlist__module .module__img i {
+  width: 100%;
+  height: 15px;
+  background-image: url(../assets/icon/ICON-BOTTOM-color.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.playlist__module .module__img i.is-active {
+  background-image: url(../assets/icon/ICON-UP-color.svg);
 }
 .playlist__module .module__name {
   width: 70%;
