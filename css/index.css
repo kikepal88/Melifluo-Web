@@ -636,6 +636,60 @@ main {
   text-align: start;
 }
 
+.main-courses__faqs {
+  width: 100%;
+  height: auto;
+  color: var(--color_primario);
+  background-color: var(--color_secundario);
+}
+.main-courses__faqs h2 {
+  margin-block-end: 25px;
+}
+.faqs__faq-container {
+  width: 100%;
+  height: auto;
+}
+.individual__faq {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-block-end: 10px;
+}
+.faq__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 15px;
+  margin-inline-end: 10px;
+  margin-block-end: 5px;
+}
+.faq__icon i {
+  width: 20px;
+  height: 15px;
+  background-image: url(../assets/icon/ICON-BOTTOM.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.individual__faq i.is-active {
+  background-image: url(../assets/icon/ICON-UP.svg);
+}
+.faq__question {
+  width: 90%;
+  margin-block-end: 5px;
+  text-align: start;
+}
+.faq__answer {
+  width: 100%;
+  height: auto;
+  padding-inline-start: 30px;
+  text-align: start;
+}
+
 /* ----------CONTACT-MAIN------------- */
 
 .contact__main {
