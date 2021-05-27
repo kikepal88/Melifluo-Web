@@ -435,6 +435,7 @@ main {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
 }
+
 .main__courses .ourmethod__title p {
   margin-block-start: 15px;
 }
@@ -590,6 +591,9 @@ main {
   width: 90%;
   text-align: start;
 }
+.main-courses__include .button {
+  padding: 8px 2px;
+}
 
 .main-courses__musicbook {
   width: 100%;
@@ -650,6 +654,9 @@ main {
   width: 65%;
   text-align: start;
 }
+.main-courses__warranty .button {
+  padding: 8px 2px;
+}
 
 .main-courses__faqs {
   width: 100%;
@@ -694,7 +701,7 @@ main {
   background-image: url(../assets/icon/ICON-UP.svg);
 }
 .faq__question {
-  width: 90%;
+  max-width: 90%;
   margin-block-end: 5px;
   text-align: start;
 }
