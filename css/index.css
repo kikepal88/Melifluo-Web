@@ -519,7 +519,7 @@ main {
   background-size: cover;
   background-position: center;
 }
-.playlist__module .module__img i.is-active {
+.playlist__module .module__img.is-active i {
   background-image: url(../assets/icon/ICON-UP-color.svg);
 }
 .playlist__module .module__name {
