@@ -704,7 +704,7 @@ main {
   background-size: cover;
   background-position: center;
 }
-.individual__faq i.is-active {
+.faq__icon.is-active i {
   background-image: url(../assets/icon/ICON-UP.svg);
 }
 .faq__question {
@@ -713,10 +713,14 @@ main {
   text-align: start;
 }
 .faq__answer {
+  display: none;
   width: 100%;
   height: auto;
   padding-inline-start: 30px;
   text-align: start;
+}
+.faq__answer.is-active {
+  display: block;
 }
 
 /* ----------CONTACT-MAIN------------- */
