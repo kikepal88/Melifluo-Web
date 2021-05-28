@@ -532,7 +532,14 @@ main {
   opacity: 0.8;
 }
 .module__class-conteiner {
+  height: 0;
+  padding: 0 5px;
   background-color: var(--color_variante);
+  overflow: hidden;
+  transition: 0.3s;
+}
+.module__class-conteiner.is-active {
+  height: 100%;
   padding: 5px;
 }
 .module__class-conteiner article {
