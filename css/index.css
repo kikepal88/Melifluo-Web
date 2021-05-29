@@ -55,6 +55,8 @@ h3 {
 }
 
 .button {
+  display: block;
+  width: 235px;
   padding: 8px;
   color: var(--color_primario);
   font-size: 1.7rem;
@@ -598,9 +600,6 @@ main {
   width: 90%;
   text-align: start;
 }
-.main-courses__include .button {
-  padding: 8px 2px;
-}
 
 .main-courses__musicbook {
   width: 100%;
@@ -660,9 +659,6 @@ main {
 .warranty__description p {
   width: 65%;
   text-align: start;
-}
-.main-courses__warranty .button {
-  padding: 8px 2px;
 }
 
 .main-courses__faqs {
