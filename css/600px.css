@@ -4,8 +4,11 @@
 .presentation__text h3 {
   width: 75%;
 }
-.presentation__button-container {
-  text-align: start;
+
+/* ----------COURSES-HEADER------------- */
+
+.header__presentation.courses h2 {
+  max-width: 75%;
 }
 
 /* ----------MAIN------------- */

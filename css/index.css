@@ -170,9 +170,12 @@ header {
 .header__presentation.courses h1 {
   color: var(--color_secundario);
 }
-.header__presentation.courses h3 {
-  margin-block-end: 15px;
+.header__presentation.courses h2 {
   font-weight: 400;
+  margin-block-end: 15px;
+}
+.header__presentation.courses h3 {
+  font-weight: 700;
 }
 .header__presentation.courses .second {
   margin-block-start: 3px;

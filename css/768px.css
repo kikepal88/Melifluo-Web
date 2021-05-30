@@ -17,6 +17,7 @@ h3 {
 }
 
 .button {
+  width: 250px;
   padding: 10px;
   font-size: 1.8rem;
   border-radius: 10px;
@@ -58,6 +59,18 @@ header {
 }
 .presentation__button-container {
   margin-block-end: 50px;
+}
+
+/* ----------COURSES-HEADER------------- */
+
+.header__presentation.courses h2 {
+  max-width: 85%;
+}
+.header__presentation.courses .second {
+  margin-block-end: 30px;
+}
+.header__presentation.courses .button {
+  margin: 0;
 }
 
 /* ----------MAIN------------- */
@@ -163,6 +176,96 @@ section {
 }
 .main__video video {
   max-width: 759px;
+}
+
+/* ----------COURSES-MAIN------------- */
+
+.main__courses .ourmethod__descriptions {
+  margin-block-start: 20px;
+}
+.main__courses .description__cards {
+  display: block;
+  margin-block-start: 0;
+  text-align: center;
+}
+.main__courses .cards__img {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.main__courses .cards__texts {
+  width: 100%;
+}
+
+.include__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.individual__include {
+  width: 49%;
+}
+.individual__include p {
+  width: 100%;
+}
+.main-courses__include .button {
+  width: 330px;
+}
+
+.musicbook__description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 700px;
+  width: 80%;
+  margin: 0 auto;
+}
+.musicbook__img {
+  max-width: 150px;
+  width: 40%;
+  margin-block-end: 0;
+}
+.musicbook__img img {
+  width: 100px;
+}
+.musicbook__description p {
+  width: 70%;
+  margin: 0;
+  text-align: start;
+}
+
+.warranty__description {
+  max-width: 700px;
+  width: 75%;
+  margin: 0 auto 40px;
+}
+.warranty__img {
+  max-width: 140px;
+  margin-inline-end: 20px;
+}
+.warranty__description p {
+  width: 75%;
+}
+.main-courses__warranty .button {
+  width: 330px;
+}
+
+.main-courses__faqs h2 {
+  margin-block-end: 30px;
+}
+.faqs__faq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.individual__faq {
+  width: 49%;
+}
+.faq__question {
+  max-width: 100%;
 }
 
 /* ----------FOOTER------------- */
