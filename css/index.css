@@ -297,7 +297,8 @@ main {
   opacity: 100%;
 }
 .article__description a {
-  width: 150px;
+  width: 120px;
+  margin: 0 auto;
   border-radius: 18px;
   opacity: 90%;
 }

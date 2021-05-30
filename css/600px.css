@@ -57,6 +57,13 @@ section {
   max-width: 87%;
 }
 
+/* ----------COURSES-MAIN------------- */
+
+.main__courses .cards__texts {
+  width: 80%;
+  margin: 0;
+}
+
 /* ----------FOOTER------------- */
 
 footer {
