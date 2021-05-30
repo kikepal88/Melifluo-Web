@@ -63,6 +63,11 @@ header {
 
 /* ----------COURSES-HEADER------------- */
 
+.header__electguitar-course section {
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+}
+
 .header__presentation.courses h2 {
   max-width: 85%;
 }
@@ -179,6 +184,11 @@ section {
 }
 
 /* ----------COURSES-MAIN------------- */
+
+.main__courses section {
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+}
 
 .main__courses .ourmethod__descriptions {
   margin-block-start: 20px;

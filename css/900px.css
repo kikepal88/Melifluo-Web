@@ -8,6 +8,12 @@
   margin-block-end: 50px;
 }
 
+/* ----------COURSES-HEADER------------- */
+
+.header__presentation.courses h2 {
+  max-width: 70%;
+}
+
 /* ----------MAIN------------- */
 
 .description__cards {
@@ -24,4 +30,36 @@
 }
 .steps__union {
   width: 700%;
+}
+
+/* ----------COURSES-MAIN------------- */
+
+.main__courses .description__cards {
+  width: 32%;
+}
+
+.playlist__container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.include__container {
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto 40px;
+}
+.individual__include {
+  width: 45%;
+}
+
+.musicbook__description {
+  width: 65%;
+}
+.musicbook__description p {
+  width: 75%;
+}
+
+.warranty__description {
+  width: 65%;
+  margin: 0 auto 30px;
 }
