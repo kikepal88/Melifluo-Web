@@ -17,6 +17,7 @@ h3 {
 }
 
 .button {
+  width: 350px;
   padding: 14px;
   font-size: 2.5rem;
   border-radius: 12px;
@@ -39,6 +40,12 @@ h3 {
 }
 .presentation__text h3 {
   width: 60%;
+}
+
+/* ----------COURSES-HEADER------------- */
+
+.header__presentation.courses h2 {
+  max-width: 85%;
 }
 
 /* ----------MAIN------------- */
@@ -133,6 +140,42 @@ section {
 }
 .individual__benefits p {
   max-width: 71%;
+}
+
+/* ----------COURSES-MAIN------------- */
+
+.main__courses .description__cards {
+  width: 30%;
+}
+
+.playlist__container {
+  max-width: 1120px;
+}
+
+.include__container {
+  max-width: 1120px;
+  width: 80%;
+}
+.main-courses__include .button {
+  width: 450px;
+}
+
+.musicbook__description {
+  max-width: 850px;
+  width: 60%;
+}
+
+.warranty__description {
+  max-width: 850px;
+  width: 60%;
+}
+.main-courses__warranty .button {
+  width: 450px;
+}
+
+.faqs__faq-container {
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 /* ----------FOOTER------------- */

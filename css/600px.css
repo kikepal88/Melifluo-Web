@@ -5,6 +5,10 @@
   width: 75%;
 }
 
+header .presentation__button-container .button {
+  margin-inline-start: 0;
+}
+
 /* ----------COURSES-HEADER------------- */
 
 .header__presentation.courses h2 {
