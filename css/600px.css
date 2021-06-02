@@ -85,8 +85,8 @@ footer {
   padding: 20px 0 20px 35px;
   order: 1;
 }
-.footer__icon-rights img {
-  margin-inline-end: 10px;
+.icon-rights__img {
+  margin: 0 10px 0 0;
 }
 .footer__contact {
   justify-content: flex-end;

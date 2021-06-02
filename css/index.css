@@ -106,7 +106,9 @@ header {
   width: 100px;
 }
 .head__logo img {
+  display: block;
   width: 100%;
+  object-fit: cover;
 }
 .head__link-courses a {
   color: var(--color_secundario);
@@ -787,8 +789,14 @@ footer {
   text-align: center;
   order: 2;
 }
-.footer__icon-rights img {
+.icon-rights__img {
   width: 120px;
+  margin: 0 auto;
+}
+.footer__icon-rights img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }
 .footer__contact {
   display: flex;
