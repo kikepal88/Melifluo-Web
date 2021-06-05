@@ -124,10 +124,7 @@ header {
 .header__presentation {
   width: 100%;
   height: auto;
-  padding-block-start: 180px;
-  text-align: start;
-}
-.header__presentation.courses {
+  padding-block-start: 220px;
   text-align: start;
 }
 .presentation__titles {
@@ -150,7 +147,7 @@ header {
   font-weight: 500;
 }
 .presentation__button-container {
-  margin-block-end: 30px;
+  margin-block-end: 20px;
   text-align: center;
   transform-origin: center;
   opacity: 1;
@@ -169,6 +166,10 @@ header {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
 }
+.header__presentation.courses {
+  padding-block-start: 160px;
+  text-align: start;
+}
 .header__presentation.courses h1 {
   color: var(--color_secundario);
 }
@@ -181,7 +182,7 @@ header {
 }
 .header__presentation.courses .second {
   margin-block-start: 3px;
-  margin-block-end: 50px;
+  margin-block-end: 40px;
   color: var(--color_secundario);
 }
 
