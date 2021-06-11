@@ -136,6 +136,12 @@ header {
 .presentation__titles h2 {
   width: 100%;
 }
+.presentation__titles h2 span {
+  color: var(--color_secundario);
+}
+.presentation__titles .second {
+  font-size: 28px;
+}
 .presentation__text {
   margin-block-end: 45px;
 }
