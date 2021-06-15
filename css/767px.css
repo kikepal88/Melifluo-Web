@@ -17,7 +17,7 @@ h3 {
 }
 
 .button {
-  width: 250px;
+  width: 330px;
   padding: 10px;
   font-size: 1.8rem;
   border-radius: 10px;
@@ -72,6 +72,7 @@ header {
   max-width: 85%;
 }
 .header__presentation.courses .second {
+  font-size: 2.3rem;
   margin-block-end: 30px;
 }
 .header__presentation.courses .button {
@@ -190,6 +191,9 @@ section {
   padding-inline-end: 40px;
 }
 
+.main__courses .ourmethod__title p {
+  font-size: 1.7rem;
+}
 .main__courses .ourmethod__descriptions {
   margin-block-start: 20px;
 }

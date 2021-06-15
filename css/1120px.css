@@ -17,10 +17,14 @@ h3 {
 }
 
 .button {
-  width: 350px;
+  width: 450px;
   padding: 14px;
   font-size: 2.5rem;
   border-radius: 12px;
+}
+
+header {
+  max-height: calc(1120px / 1.33);
 }
 
 .header__head {
@@ -46,6 +50,9 @@ h3 {
 
 .header__presentation.courses h2 {
   max-width: 85%;
+}
+.header__presentation.courses .second {
+  font-size: 2.8rem;
 }
 
 /* ----------MAIN------------- */
@@ -144,12 +151,15 @@ section {
 
 /* ----------COURSES-MAIN------------- */
 
+.main__courses .ourmethod__title p {
+  font-size: 1.8rem;
+}
 .main__courses .description__cards {
   width: 30%;
 }
 
 .playlist__container {
-  max-width: 1120px;
+  max-width: 900px;
 }
 
 .include__container {

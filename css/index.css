@@ -139,9 +139,6 @@ header {
 .presentation__titles h2 span {
   color: var(--color_secundario);
 }
-.presentation__titles .second {
-  font-size: 28px;
-}
 .presentation__text {
   margin-block-end: 45px;
 }
@@ -158,9 +155,10 @@ header {
   transform-origin: center;
   opacity: 1;
 }
-.presentation__button-container:hover {
-  transition: 0.7s;
-  opacity: 0.7;
+.presentation__button-container a:hover {
+  color: var(--color_secundario);
+  background-color: var(--color_primario);
+  transition: 0.3s;
 }
 .presentation__button {
   margin: 20px auto;
@@ -173,7 +171,7 @@ header {
   padding-inline-end: 25px;
 }
 .header__presentation.courses {
-  padding-block-start: 160px;
+  padding-block-start: 140px;
   text-align: start;
 }
 .header__presentation.courses h1 {
@@ -186,10 +184,14 @@ header {
 .header__presentation.courses h3 {
   font-weight: 700;
 }
+.header__presentation.courses h3 s {
+  text-decoration-color: var(--color_secundario);
+}
 .header__presentation.courses .second {
   margin-block-start: 3px;
   margin-block-end: 40px;
   color: var(--color_secundario);
+  font-size: 19px;
 }
 
 /* ----------MAIN------------- */
@@ -453,6 +455,8 @@ main {
 
 .main__courses .ourmethod__title p {
   margin-block-start: 15px;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 .main__courses .description__cards {
   display: flex;
@@ -729,6 +733,13 @@ main {
 }
 .faq__answer.is-active {
   display: block;
+}
+.main-courses__faqs .button {
+  color: var(--color_secundario);
+  background-color: var(--color_primario);
+}
+.main-courses__faqs .button:hover {
+  background-color: var(--color_variante);
 }
 
 /* ----------CONTACT-MAIN------------- */
