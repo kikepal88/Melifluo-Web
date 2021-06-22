@@ -17,7 +17,7 @@ h3 {
 }
 
 .button {
-  width: 330px;
+  width: 260px;
   padding: 10px;
   font-size: 1.8rem;
   border-radius: 10px;
@@ -211,6 +211,10 @@ section {
   width: 100%;
 }
 
+.main__courses .main__benefits .button {
+  width: 330px;
+}
+
 .include__container {
   display: flex;
   justify-content: flex-start;
@@ -222,9 +226,6 @@ section {
 }
 .individual__include p {
   width: 100%;
-}
-.main-courses__include .button {
-  width: 330px;
 }
 
 .musicbook__description {
@@ -280,6 +281,9 @@ section {
 }
 .faq__question {
   max-width: 100%;
+}
+.main-courses__faqs .button {
+  width: 330px;
 }
 
 /* ----------FOOTER------------- */

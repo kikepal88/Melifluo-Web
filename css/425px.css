@@ -34,6 +34,10 @@
 .main__courses .individual__benefits p {
   max-width: 85%;
 }
+.main__courses .main__benefits .button {
+  width: 300px;
+}
+
 .playlist__container {
   max-width: 90%;
   margin: 0 auto;
@@ -50,9 +54,6 @@
 }
 .include__indicator-symbol {
   margin-inline-end: 10px;
-}
-.main-courses__include .button {
-  width: 300px;
 }
 
 .musicbook__description p {
@@ -73,5 +74,9 @@
   margin-block-end: 10px;
 }
 .main-courses__warranty .button {
+  width: 300px;
+}
+
+.main-courses__faqs .button {
   width: 300px;
 }
