@@ -186,6 +186,7 @@ header {
 }
 .header__presentation.courses h3 s {
   text-decoration-color: var(--color_secundario);
+  text-decoration-thickness: 2.5px;
 }
 .header__presentation.courses .second {
   margin-block-start: 3px;
