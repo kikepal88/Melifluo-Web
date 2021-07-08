@@ -72,7 +72,7 @@ header {
   width: 100%;
   height: auto;
   color: var(--color_claro);
-  background-image: url(../assets/images/General/HD9.jpg);
+  background-image: url(../assets/images/General/HD3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,6 +138,7 @@ header {
 }
 .presentation__titles h2 span {
   color: var(--color_secundario);
+  font-weight: 700;
 }
 .presentation__text {
   margin-block-end: 45px;
