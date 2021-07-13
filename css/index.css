@@ -72,7 +72,7 @@ header {
   width: 100%;
   height: auto;
   color: var(--color_claro);
-  background-image: url(../assets/images/General/HD3.jpg);
+  background-image: url(../assets/images/General/Home_P_H.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ header {
   background-image: url(../assets/images/Bateria/Bateria3-p_efecto.jpg);
 }
 .header__electguitar-course {
-  background-image: url(../assets/images/Guitarra_Elec/GEM.jpg);
+  background-image: url(../assets/images/Guitarra_Elec/GuitElec2_P_C.jpg);
 }
 .header__piano-course {
   background-image: url(../assets/images/Piano/Piano3-p_efecto.jpg);
