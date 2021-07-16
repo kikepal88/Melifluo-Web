@@ -6,7 +6,7 @@ header {
   background-image: url(../assets/images/Guitarra_Acu/GitAcu4-g_efecto.jpg);
 }
 .header__bajo-course {
-  background-image: url(../assets/images/Bajo/Bajo3-g_efecto.jpg);
+  background-image: url(../assets/images/Bajo/Bajo_G_C.jpg);
 }
 .header__batery-course {
   background-image: url(../assets/images/Bateria/Bateria_G_C.jpg);
@@ -28,4 +28,7 @@ header {
 }
 .header__piano-course .header__presentation.courses {
   padding-block-start: 180px;
+}
+.header__bajo-course .header__presentation.courses {
+  padding-block-start: 160px;
 }

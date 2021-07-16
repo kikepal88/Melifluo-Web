@@ -81,7 +81,7 @@ header {
   background-image: url(../assets/images/Guitarra_Acu/GitAcu2-p_efecto.jpg);
 }
 .header__bajo-course {
-  background-image: url(../assets/images/Bajo/Bajo3-p_efecto.jpg);
+  background-image: url(../assets/images/Bajo/Bajo_M_C.jpg);
 }
 .header__batery-course {
   background-image: url(../assets/images/Bateria/Bateria2_M_C.jpg);
@@ -176,6 +176,10 @@ header {
   padding-inline-end: 25px;
 }
 .header__piano-course section {
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+}
+.header__bajo-course section {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
 }
