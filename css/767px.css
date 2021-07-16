@@ -23,9 +23,6 @@ h3 {
   border-radius: 10px;
 }
 
-header {
-  /* background-image: url(../assets/images/General/Home_M_H.jpg); */
-}
 .header__guitar-course {
   background-image: url(../assets/images/Guitarra_Acu/GitAcu4-m_efecto.jpg);
 }
@@ -37,9 +34,6 @@ header {
 }
 .header__electguitar-course {
   background-image: url(../assets/images/Guitarra_Elec/GuitElec_M_C.jpg);
-}
-.header__piano-course {
-  background-image: url(../assets/images/Piano/Piano3-m_efecto.jpg);
 }
 .header__sing-course {
   background-image: url(../assets/images/Canto/Canto1-m_efecto.jpg);

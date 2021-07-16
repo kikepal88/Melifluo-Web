@@ -15,7 +15,7 @@ header {
   background-image: url(../assets/images/Guitarra_Elec/GuitElec_G_C.jpg);
 }
 .header__piano-course {
-  background-image: url(../assets/images/Piano/Piano3-g_efecto.jpg);
+  background-image: url(../assets/images/Piano/Piano_G_C.jpg);
 }
 .header__sing-course {
   background-image: url(../assets/images/Canto/Canto1-g_efecto.jpg);
@@ -24,5 +24,8 @@ header {
 /* ----------COURSES-HEADER------------- */
 
 .header__batery-course .header__presentation.courses {
+  padding-block-start: 180px;
+}
+.header__piano-course .header__presentation.courses {
   padding-block-start: 180px;
 }
