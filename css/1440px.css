@@ -1,24 +1,3 @@
-header {
-  background-image: url(../assets/images/General/Home_G_H.jpg);
-}
-.header__guitar-course {
-  background-image: url(../assets/images/Guitarra_Acu/GitAcu4-g_efecto.jpg);
-}
-.header__bajo-course {
-  background-image: url(../assets/images/Bajo/Bajo3-g_efecto.jpg);
-}
-.header__batery-course {
-  background-image: url(../assets/images/Bateria/Bateria3-g_efecto.jpg);
-}
-.header__electguitar-course {
-  background-image: url(../assets/images/Guitarra_Elec/GuitElec_G_C.jpg);
-}
-.header__piano-course {
-  background-image: url(../assets/images/Piano/Piano3-g_efecto.jpg);
-}
-.header__sing-course {
-  background-image: url(../assets/images/Canto/Canto1-g_efecto.jpg);
-}
 .header__head {
   height: 120px;
   padding-block-start: 70px;
