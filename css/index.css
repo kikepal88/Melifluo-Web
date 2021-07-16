@@ -84,7 +84,7 @@ header {
   background-image: url(../assets/images/Bajo/Bajo3-p_efecto.jpg);
 }
 .header__batery-course {
-  background-image: url(../assets/images/Bateria/Bateria3-p_efecto.jpg);
+  background-image: url(../assets/images/Bateria/Bateria2_M_C.jpg);
 }
 .header__electguitar-course {
   background-image: url(../assets/images/Guitarra_Elec/GuitElec2_P_C.jpg);
@@ -171,6 +171,10 @@ header {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
 }
+.header__batery-course section {
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+}
 .header__presentation.courses {
   padding-block-start: 140px;
   text-align: start;
@@ -187,7 +191,7 @@ header {
 }
 .header__presentation.courses h3 s {
   text-decoration-color: var(--color_secundario);
-  text-decoration-thickness: 2.5px;
+  text-decoration-thickness: 3px;
 }
 .header__presentation.courses .second {
   margin-block-start: 3px;
