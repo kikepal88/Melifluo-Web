@@ -3,7 +3,7 @@ header {
   background-image: url(../assets/images/General/Home_G_H.jpg);
 }
 .header__guitar-course {
-  background-image: url(../assets/images/Guitarra_Acu/GitAcu4-g_efecto.jpg);
+  background-image: url(../assets/images/Guitarra_Acu/GuitAcu_G_C.jpg);
 }
 .header__bajo-course {
   background-image: url(../assets/images/Bajo/Bajo_G_C.jpg);
@@ -31,4 +31,7 @@ header {
 }
 .header__bajo-course .header__presentation.courses {
   padding-block-start: 160px;
+}
+.header__guitar-course .header__presentation.courses {
+  padding-block-start: 180px;
 }

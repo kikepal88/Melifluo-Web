@@ -78,7 +78,7 @@ header {
   background-repeat: no-repeat;
 }
 .header__guitar-course {
-  background-image: url(../assets/images/Guitarra_Acu/GitAcu2-p_efecto.jpg);
+  background-image: url(../assets/images/Guitarra_Acu/GuitAcu_M_C.jpg);
 }
 .header__bajo-course {
   background-image: url(../assets/images/Bajo/Bajo_M_C.jpg);
@@ -180,6 +180,10 @@ header {
   padding-inline-end: 25px;
 }
 .header__bajo-course section {
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+}
+.header__guitar-course section {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
 }
