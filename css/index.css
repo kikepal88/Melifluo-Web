@@ -93,7 +93,7 @@ header {
   background-image: url(../assets/images/Piano/Piano_M_C.jpg);
 }
 .header__sing-course {
-  background-image: url(../assets/images/Canto/Canto1-p_efecto.jpg);
+  background-image: url(../assets/images/Canto/Voz_M_C.jpg);
 }
 .header__head {
   display: flex;
@@ -184,6 +184,10 @@ header {
   padding-inline-end: 25px;
 }
 .header__guitar-course section {
+  padding-inline-start: 25px;
+  padding-inline-end: 25px;
+}
+.header__sing-course section {
   padding-inline-start: 25px;
   padding-inline-end: 25px;
 }
