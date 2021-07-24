@@ -87,7 +87,7 @@ header {
   background-image: url(../assets/images/Bateria/Bateria2_M_C.jpg);
 }
 .header__electguitar-course {
-  background-image: url(../assets/images/Guitarra_Elec/GuitElec2_P_C.jpg);
+  background-image: url(../assets/images/Guitarra_Elec/GuitElec_M_C.jpg);
 }
 .header__piano-course {
   background-image: url(../assets/images/Piano/Piano_M_C.jpg);
@@ -314,7 +314,7 @@ main {
 }
 .article__title {
   position: absolute;
-  top: 10%;
+  top: 8%;
   right: 15px;
   left: 15px;
 }

@@ -52,3 +52,6 @@ function desplegarRespuesta(index) {
   document.getElementById(`faq-icon${index + 1}`).classList.toggle("is-active");
   document.getElementById(`faq-answer${index + 1}`).classList.toggle("is-active");
 }
+
+let prevUrl = document.referrer;
+console.log(prevUrl);

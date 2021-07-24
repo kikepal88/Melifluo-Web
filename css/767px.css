@@ -101,6 +101,7 @@ section {
   height: 370px;
 }
 .article__title {
+  top: 6%;
   right: 20px;
   left: 20px;
 }
