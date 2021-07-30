@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Melifluo / Contact</title>
-  <link rel="icon" type="image/png" href="assets/icon/melifluo-16.png">
+  <title>Melifluo / Contacto</title>
+  <link rel="icon" type="image/svg" href="assets/icon/ICONO MELIFLUO CLASES.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/425px.css" media="screen and (min-width: 425px)">
@@ -24,30 +25,25 @@
 </head>
 
 <body>
-  <header>
+  <header class="header__contact">
     <section class="header__head">
       <div class="head__logo">
-        <a href="">
+        <a href="index.html">
           <img src="assets/icon/melifluo-amarillo.png" alt="Logo Melifluo">
         </a>
       </div>
     </section>
     <section class="header__presentation">
       <div class="presentation__titles">
-        <h1>Haz de la Música tu hobby</h1>
-        <h2>Escuela online para aficionados a la música</h2>
-      </div>
-      <div class="presentation__text">
-        <p>Aprende a tocar tu instrumento favorito desde cero, toca canciones en poco tiempo. Inspira tu vida, rétate a
-          ti mismo.
-          Llena tu vida con arte.</p>
+        <h2>Eres un verdadero Music Lover. Gracias por creer en nosotros y hacer parte del prelanzamiento Early rockersde Melifluo.</h2>
+        <h2>Estamos terminando de crear la mejor experiencia de aprendizaje musical para ti. Muy pronto estará listo elcurso.</h2>
       </div>
     </section>
   </header>
   <main class="contact__main">
     <section class="main__contact-section">
       <div class="contact__title">
-        <h2>¿Quieres información? Dejanos tus datos y pronto te responderemos</h2>
+        <h2>Déjanos tus datos y nos comunicaremos contigo para que hagas de la Música tú hobby.</h2>
       </div>
       <div class="contact__form">
         <form action="">
@@ -76,12 +72,23 @@
             </label>
           </div>
           <div class="form__label">
+            <label for="dates">
+              <span>Cuéntanos algo sobre ti:</span>
+              <input type="text" name="dates" id="dates" placeholder="Cuéntanos algo sobre ti">
+            </label>
+          </div>
+          <div class="form__label">
             <label for="course">
               <span>Curso:</span>
               <input type="text" name="course" id="course" placeholder="Curso" readonly="readonly">
             </label>
           </div>
-          <input type="submit">
+          <div>
+            <input type="submit">
+            <div class="class__img">
+              <img src="assets/icon/melifluo-ico.png" alt="Logo de Melifluo">
+            </div>
+          </div>
         </form>
       </div>
     </section>

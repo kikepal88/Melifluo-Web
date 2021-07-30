@@ -225,6 +225,19 @@ header {
   text-shadow: 2px 2px 20px rgb(29, 28, 26);
 }
 
+/* ----------HEADER - CONTACT------------- */
+
+.header__contact h2 {
+  margin-block-end: 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.header__contact h2:first-child {
+  color: var(--color_secundario);
+  font-size: 25px;
+  line-height: 30px;
+}
+
 /* ----------MAIN------------- */
 
 section {
