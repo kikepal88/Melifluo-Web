@@ -14,6 +14,16 @@
   max-width: 70%;
 }
 
+/* ----------HEADER - CONTACT------------- */
+
+.header__contact .header__head {
+  width: 52%;
+}
+.header__contact .header__presentation {
+  width: 52%;
+  padding-block-start: 300px;
+}
+
 /* ----------MAIN------------- */
 
 .description__cards {
@@ -62,4 +72,10 @@
 .warranty__description {
   width: 65%;
   margin: 0 auto 30px;
+}
+
+/* ----------CONTACT-MAIN------------- */
+
+.contact__title {
+  margin-inline-start: 15%;
 }

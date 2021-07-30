@@ -805,7 +805,7 @@ main {
   color: var(--color_secundario);
 }
 
-.contact__form {
+.contact__form-container {
   max-width: 500px;
   width: 100%;
   height: auto;
@@ -859,14 +859,17 @@ main {
   outline-color: var(--color_secundario);
   box-shadow: 1px 1px 5px 0 var(--color_secundario);
 }
-#div__dates {
+.form__label.dates {
   height: auto;
   margin-block-end: 10px;
 }
-#dates {
+.form__label.dates textarea {
   height: 60px;
   font-family: var(--Fuente1);
   font-size: 14px;
+}
+.form__label.course__field {
+  display: none;
 }
 .form__send {
   display: flex;

@@ -71,8 +71,8 @@ h3 {
 }
 .header__contact .header__presentation {
   width: 55%;
-  padding-block-start: 300px;
-  padding-inline-end: 20px;
+  padding-block-start: 280px;
+  padding-inline-end: 30px;
 }
 
 /* ----------MAIN------------- */
@@ -293,19 +293,17 @@ section {
   height: auto;
 }
 .main__contact-section {
-  padding: 20px 0px;
+  padding: 20px;
 }
 .contact__title {
-  margin-block-end: 10px;
-}
-.contact__title h2 {
-  font-size: 24px;
+  margin-inline-start: 12%;
+  padding: 0 15px;
 }
 
-.contact__form {
-  width: 70%;
+.contact__form-container {
+  width: 80%;
   padding: 5px 10px;
-  margin: 0 10px 0 25%;
+  margin: 0 10px 0 20%;
   background-color: rgba(29, 28, 26, 0.8);
   border-radius: 10px;
 }

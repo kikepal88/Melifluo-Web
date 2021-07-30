@@ -38,3 +38,40 @@ header {
 .header__sing-course .header__presentation.courses {
   padding-block-start: 180px;
 }
+
+/* ----------HEADER - CONTACT------------- */
+header {
+  max-height: none;
+  height: 100vh;
+}
+
+.header__contact .header__head {
+  width: 45%;
+  margin: 0 0 0 7%;
+}
+.header__contact .header__presentation {
+  width: 45%;
+  margin: 0 0 0 7%;
+  padding-block-start: 300px;
+  padding-block-end: 100px;
+  padding-inline-end: 80px;
+}
+.header__contact h2 {
+  margin-block-end: 12px;
+  font-size: 25px;
+  line-height: 30px;
+}
+.header__contact h2:first-child {
+  color: var(--color_secundario);
+  font-size: 32px;
+  line-height: 38px;
+}
+
+/* ----------CONTACT-MAIN------------- */
+
+.contact__main {
+  top: 10%;
+}
+.contact__title {
+  margin-inline-end: 10%;
+}

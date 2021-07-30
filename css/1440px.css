@@ -33,3 +33,12 @@
 .course__article {
   height: 420px;
 }
+
+/* ----------CONTACT-MAIN------------- */
+
+.contact__main {
+  top: 12%;
+}
+.contact__title {
+  margin-inline-end: 20%;
+}
