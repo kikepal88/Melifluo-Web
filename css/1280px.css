@@ -40,7 +40,7 @@ header {
 }
 
 /* ----------HEADER - CONTACT------------- */
-header {
+.body__contact header {
   max-height: none;
   height: 100vh;
 }
