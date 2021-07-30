@@ -49,19 +49,19 @@
         <form action="">
           <div class="form__label">
             <label for="name">
-              <span>Nombre:</span>
+              <span>* Nombre:</span>
               <input type="text" name="name" id="name" autocomplete="name" placeholder="Nombre" required>
             </label>
           </div>
           <div class="form__label">
             <label for="lastname">
-              <span>Apellido:</span>
+              <span>* Apellido:</span>
               <input type="text" name="lastname" id="lastname" placeholder="Apellido" required>
             </label>
           </div>
           <div class="form__label">
             <label for="email">
-              <span>Email:</span>
+              <span>* Email:</span>
               <input type="email" name="email" id="email" autocomplete="email" placeholder="Email" required>
             </label>
           </div>
@@ -74,7 +74,7 @@
           <div class="form__label" id="div__dates">
             <label for="dates">
               <span>Cuéntanos algo sobre ti:</span>
-              <input type="text" name="dates" id="dates" placeholder="Cuéntanos algo sobre ti" maxlength="1000" spellcheck="true">
+              <textarea name="dates" id="dates" cols="30" rows="10" placeholder="Cuéntanos algo sobre ti"></textarea>
             </label>
           </div>
           <div class="form__label">
@@ -83,9 +83,9 @@
               <input type="text" name="course" id="course" placeholder="Curso" readonly="readonly">
             </label>
           </div>
-          <div>
-            <input type="submit">
-            <div class="class__img">
+          <div class="form__send">
+            <input class="button" type="submit">
+            <div class="form__img">
               <img src="assets/icon/melifluo-ico.png" alt="Logo de Melifluo">
             </div>
           </div>
