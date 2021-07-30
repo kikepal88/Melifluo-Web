@@ -804,6 +804,7 @@ main {
 .contact__title h2 {
   color: var(--color_secundario);
 }
+
 .contact__form {
   width: 100%;
   height: auto;
@@ -824,12 +825,30 @@ main {
 .form__label span {
   width: 100%;
   margin-block-end: 5px;
+  color: var(--color_secundario);
   text-align: start;
 }
 .form__label input {
   max-width: 500px;
   width: 100%;
-  height: 30px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+.form__label input:hover {
+  border: 1px solid var(--color_secundario);
+  box-shadow: 1px 1px 5px 0 var(--color_secundario);
+}
+.form__label input:focus {
+  outline-color: var(--color_secundario);
+  box-shadow: 1px 1px 5px 0 var(--color_secundario);
+}
+#div__dates {
+  height: auto;
+  margin-block-end: 10px;
+}
+#dates {
+  height: 100px;
 }
 
 /* ----------FOOTER------------- */
