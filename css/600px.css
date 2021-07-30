@@ -71,6 +71,12 @@ section {
   margin: 0;
 }
 
+/* ----------CONTACT-MAIN------------- */
+
+.form__label {
+  margin: 0 auto;
+}
+
 /* ----------FOOTER------------- */
 
 footer {

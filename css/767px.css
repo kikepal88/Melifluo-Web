@@ -64,6 +64,17 @@ h3 {
   margin: 0;
 }
 
+/* ----------HEADER - CONTACT------------- */
+
+.header__contact .header__head {
+  width: 55%;
+}
+.header__contact .header__presentation {
+  width: 55%;
+  padding-block-start: 300px;
+  padding-inline-end: 20px;
+}
+
 /* ----------MAIN------------- */
 
 section {
@@ -267,6 +278,43 @@ section {
 }
 .faq__question {
   max-width: 91%;
+}
+
+/* ----------CONTACT-MAIN------------- */
+
+.body__contact {
+  position: relative;
+}
+.contact__main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: auto;
+}
+.main__contact-section {
+  padding: 20px 0px;
+}
+.contact__title {
+  margin-block-end: 10px;
+}
+.contact__title h2 {
+  font-size: 24px;
+}
+
+.contact__form {
+  width: 70%;
+  padding: 5px 10px;
+  margin: 0 10px 0 25%;
+  background-color: rgba(29, 28, 26, 0.8);
+  border-radius: 10px;
+}
+.form__label span {
+  margin-block-end: 5px;
+  color: var(--color_secundario);
+  font-size: 17px;
+  font-weight: 700;
+  text-shadow: 2px 2px 20px rgb(29, 28, 26);
 }
 
 /* ----------FOOTER------------- */
