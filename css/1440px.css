@@ -24,6 +24,18 @@
   padding-block-start: 300px;
 }
 
+/* ----------HEADER - CONTACT------------- */
+
+.header__contact .header__head .head__logo {
+  top: 180%;
+  left: 33%;
+}
+.header__contact .header__presentation {
+  padding-block-start: 250px;
+  padding-block-end: 300px;
+  padding-inline-end: 80px;
+}
+
 /* ----------MAIN------------- */
 
 .cards__texts h3 {
@@ -36,9 +48,6 @@
 
 /* ----------CONTACT-MAIN------------- */
 
-.contact__main {
-  top: 12%;
-}
 .contact__title {
   margin-inline-end: 20%;
 }

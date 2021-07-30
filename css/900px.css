@@ -19,9 +19,13 @@
 .header__contact .header__head {
   width: 52%;
 }
+.header__contact .header__head .head__logo {
+  top: 160%;
+  left: 35%;
+}
 .header__contact .header__presentation {
   width: 52%;
-  padding-block-start: 300px;
+  padding-block-end: 120px;
 }
 
 /* ----------MAIN------------- */

@@ -7,10 +7,14 @@
 .header__contact .header__head {
   width: 50%;
 }
+.header__contact .header__head .head__logo {
+  top: 170%;
+  left: 40%;
+}
 .header__contact .header__presentation {
   width: 50%;
-  padding-block-start: 410px;
-  padding-inline-end: 50px;
+  padding-block-start: 200px;
+  padding-block-end: 150px;
 }
 
 /* ----------MAIN------------- */

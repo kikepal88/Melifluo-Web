@@ -56,16 +56,24 @@ header {
 }
 
 /* ----------HEADER - CONTACT------------- */
+.body__contact header {
+  max-height: none;
+}
 
 .header__contact .header__head {
   margin: 0 0 0 5%;
 }
+.header__contact .header__head .head__logo {
+  top: 150%;
+  left: 35%;
+}
 .header__contact .header__presentation {
   margin: 0 0 0 5%;
 }
-
-.header__contact .header__presentation {
-  padding-block-start: 350px;
+.header__contact h2 {
+  margin-block-end: 20px;
+  font-size: 32px;
+  line-height: 38px;
 }
 
 /* ----------MAIN------------- */

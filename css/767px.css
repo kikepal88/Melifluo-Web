@@ -67,11 +67,18 @@ h3 {
 /* ----------HEADER - CONTACT------------- */
 
 .header__contact .header__head {
+  position: relative;
   width: 55%;
+}
+.header__contact .header__head .head__logo {
+  position: absolute;
+  top: 150%;
+  left: 30%;
 }
 .header__contact .header__presentation {
   width: 55%;
-  padding-block-start: 280px;
+  padding-block-start: 180px;
+  padding-block-end: 120px;
   padding-inline-end: 30px;
 }
 
@@ -285,6 +292,7 @@ section {
 .body__contact {
   position: relative;
 }
+
 .contact__main {
   position: absolute;
   top: 0;
