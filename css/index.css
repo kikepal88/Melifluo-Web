@@ -84,13 +84,13 @@ header {
   background-image: url(../assets/images/Bajo/Bajo_M_C.jpg);
 }
 .header__batery-course {
-  background-image: url(../assets/images/Bateria/Bateria2_M_C-Efecto.jpg);
+  background-image: url(../assets/images/Bateria/Bateria2_M_C.jpg);
 }
 .header__electguitar-course {
   background-image: url(../assets/images/Guitarra_Elec/GuitElec2_M_C.jpg);
 }
 .header__piano-course {
-  background-image: url(../assets/images/Piano/Piano_M_C-Efecto.jpg);
+  background-image: url(../assets/images/Piano/Piano_M_C.jpg);
 }
 .header__sing-course {
   background-image: url(../assets/images/Canto/Voz_M_C.jpg);
@@ -215,16 +215,13 @@ header {
   color: var(--color_secundario);
   font-size: 19px;
 }
-.header__electguitar-course .presentation__titles h2 {
+.header__presentation .presentation__titles h1 {
   text-shadow: 2px 2px 20px rgb(29, 28, 26);
 }
-.header__batery-course .presentation__titles {
+.header__presentation .presentation__titles h2 {
   text-shadow: 2px 2px 20px rgb(29, 28, 26);
 }
-.header__piano-course .presentation__titles {
-  text-shadow: 2px 2px 20px rgb(29, 28, 26);
-}
-.header__guitar-course .presentation__titles {
+.header__presentation .presentation__titles h3 {
   text-shadow: 2px 2px 20px rgb(29, 28, 26);
 }
 
