@@ -15,6 +15,16 @@ header .presentation__button-container .button {
   max-width: 75%;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome {
+  padding-block-end: 20px;
+}
+.header__welcome .header__presentation {
+  width: 80%;
+  margin: 50% auto 0;
+}
+
 /* ----------MAIN------------- */
 
 section {

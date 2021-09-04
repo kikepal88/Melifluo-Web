@@ -28,6 +28,17 @@
   padding-block-end: 120px;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome {
+  padding-block-end: 30px;
+}
+.header__welcome .header__presentation {
+  width: 70%;
+  margin: 40% auto 0;
+  padding: 15px;
+}
+
 /* ----------MAIN------------- */
 
 .description__cards {

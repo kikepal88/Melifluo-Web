@@ -82,6 +82,22 @@ h3 {
   padding-inline-end: 30px;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome {
+  padding-block-end: 70px;
+}
+.header__welcome .header__presentation {
+  width: 70%;
+  margin: 75% auto 0;
+  padding: 15px;
+}
+.header__welcome .presentation__confirm {
+  width: 70px;
+  height: 70px;
+  margin: 15px auto;
+}
+
 /* ----------MAIN------------- */
 
 section {
