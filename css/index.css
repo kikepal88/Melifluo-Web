@@ -239,6 +239,40 @@ header {
   color: var(--color_secundario);
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome {
+  padding-block-end: 30px;
+}
+.header__welcome .header__presentation {
+  width: 95%;
+  margin: 65% auto 0;
+  padding: 10px;
+  background-color: rgba(37, 27, 7, 0.3);
+  border-radius: 10px;
+}
+.header__welcome .presentation__confirm {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+}
+.header__welcome .presentation__confirm img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.header__welcome h3 {
+  margin-block-end: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}
+.header__welcome h3:first-child {
+  color: var(--color_secundario);
+  font-size: 28px;
+}
+
 /* ----------MAIN------------- */
 
 section {
