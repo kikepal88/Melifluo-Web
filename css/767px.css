@@ -91,7 +91,7 @@ h3 {
   padding: 15px;
 }
 .header__welcome .presentation__titles {
-  display: initial;
+  display: block;
 }
 .header__welcome h2 {
   margin-block-end: 10px;

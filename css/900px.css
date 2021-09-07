@@ -31,12 +31,44 @@
 /* ----------HEADER - WELCOME------------- */
 
 .header__welcome {
-  padding-block-end: 30px;
+  padding-block-end: 50px;
 }
 .header__welcome .header__presentation {
-  width: 70%;
-  margin: 40% auto 0;
-  padding: 15px;
+  position: initial;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: 5% auto 0;
+  padding: 0;
+}
+.header__welcome .presentation__titles {
+  width: 48%;
+  margin: 18% 0 0;
+}
+.header__welcome h2 {
+  margin-block-end: 15px;
+  font-size: 28px;
+  line-height: 34px;
+}
+.header__welcome .presentation__confirm {
+  position: initial;
+  width: 48%;
+  padding: 20px 20px 50px;
+  background-color: rgba(29, 28, 26, 0.7);
+}
+.presentation__confirm .confirm__check {
+  width: 70px;
+  height: 70px;
+  margin: 40px auto 15px;
+}
+.presentation__confirm .confirm__message {
+  margin-block-end: 0;
+}
+.presentation__confirm .confirm__message h3 {
+  margin-block-end: 15px;
+  font-size: 24px;
+  line-height: 31px;
 }
 
 /* ----------MAIN------------- */
