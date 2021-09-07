@@ -76,6 +76,33 @@ header {
   line-height: 38px;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome {
+  padding-block-end: 80px;
+}
+.header__welcome .header__presentation {
+  margin: 22% auto 0;
+}
+.header__welcome .presentation__titles {
+  width: 48%;
+}
+.header__welcome h2 {
+  font-size: 32px;
+  line-height: 38.4px;
+}
+.header__welcome .presentation__confirm {
+  width: 48%;
+}
+.presentation__confirm .confirm__check {
+  width: 80px;
+  height: 80px;
+}
+.presentation__confirm .confirm__message h3 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
 /* ----------MAIN------------- */
 
 section {
