@@ -84,18 +84,26 @@ h3 {
 
 /* ----------HEADER - WELCOME------------- */
 
-.header__welcome {
-  padding-block-end: 70px;
-}
 .header__welcome .header__presentation {
-  width: 70%;
-  margin: 75% auto 0;
+  position: relative;
+  width: 75%;
+  margin: 40% auto 0;
   padding: 15px;
 }
+.header__welcome .presentation__titles {
+  display: initial;
+}
+.header__welcome h2 {
+  margin-block-end: 10px;
+  font-size: 25px;
+  line-height: 30px;
+}
+.header__welcome h2:first-child {
+  color: var(--color_secundario);
+}
 .header__welcome .presentation__confirm {
-  width: 70px;
-  height: 70px;
-  margin: 15px auto;
+  position: absolute;
+  bottom: -140%;
 }
 
 /* ----------MAIN------------- */
