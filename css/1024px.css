@@ -17,6 +17,18 @@
   padding-block-end: 150px;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome .header__presentation {
+  margin: 24% auto 0;
+}
+.header__welcome .presentation__titles {
+  width: 46%;
+}
+.header__welcome .presentation__confirm {
+  width: 46%;
+}
+
 /* ----------MAIN------------- */
 
 .steps__union {
