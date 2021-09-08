@@ -36,6 +36,12 @@
   padding-inline-end: 80px;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome .header__presentation {
+  margin: 14% auto 0;
+}
+
 /* ----------MAIN------------- */
 
 .cards__texts h3 {
