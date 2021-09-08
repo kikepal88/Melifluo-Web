@@ -58,6 +58,16 @@ header {
   padding-inline-end: 180px;
 }
 
+/* ----------HEADER - WELCOME------------- */
+
+.header__welcome {
+  padding-block-end: 30px;
+  height: 100vh;
+}
+.header__welcome .header__presentation {
+  margin: 12% auto 0;
+}
+
 /* ----------CONTACT-MAIN------------- */
 
 .contact__main {

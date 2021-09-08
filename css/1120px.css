@@ -82,6 +82,7 @@ header {
   padding-block-end: 80px;
 }
 .header__welcome .header__presentation {
+  max-width: 1120px;
   margin: 22% auto 0;
 }
 .header__welcome .presentation__titles {
