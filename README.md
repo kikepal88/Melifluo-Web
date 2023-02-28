@@ -1,8 +1,7 @@
 ![](https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b)
 
-# Melifluo
-
-Página Web de pre-lanzamiento de Melifluo.
+---
+![](https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo.PNG?alt=media&token=0dabb11d-1a23-437a-a8b5-8aa0c7ba8df9)
 
 ## Escuela online para aficionados a la música.
 
@@ -12,8 +11,12 @@ Creamos un método de aprendizaje único para principiantes, lograrás resultado
 
 Estamos creando un mundo donde en cada familia haya un músico. Estos cursos te llevan desde nunca haber cogido el instrumento a tocar las canciones de tu artista favorito y crear una banda de rock.
 
-Sitio construido con: ![](https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=a584821b-2894-48f6-81a3-00b4baf2a16d) ![](https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=c74c7d78-409e-41f6-bc71-640573deb7da) ![](https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=fe012c39-c121-4209-b918-5a19b5f38f52)
+Ven y conoce nuestra página web de pre-lanzamiento de Melifluo.
+
+#### Tecnologías: 
+![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)   ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)   ![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 En este repositorio se encuentra el código de todo el FrontEnd del sitio web, el repositorio completo con BackEnd se encuentra en el siguiente link [Project_Melifluo](https://github.com/Felipe-CD/Project_Melifluo), de igual manera próximamente se realizara el despliegue de la página en la siguiente dirección: https://melifluoacademy.com/
 
-Construido con ❤️
+##### Front Page - Proyecto construido con ❤️ por
+<img src="https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoFondoOscuro-removebg-preview.png?alt=media&token=1eed64b2-0fae-48f6-b72b-9c30e471d949" alt="Logo Kike" width="400px">
